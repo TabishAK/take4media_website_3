@@ -1,0 +1,24 @@
+// @font-face {
+//   font-family: "Noah Grotesque Regular";
+//   src: url("../src/fonts/Noah\ Grotesque\ Regular.woff");
+// }
+
+.home {
+  .banner {
+    position: relative;
+    background-image: url("../images/backgrounds/homePage.jpg");
+    background-position: -20rem -8rem;
+    background-size: auto;
+
+    .line-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      .line {
+        height: 55px;
+        position: absolute;
+        border-left: 4px solid #66902f;
+      }
+    }
+  }
+}

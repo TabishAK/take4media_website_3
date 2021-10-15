@@ -1,5 +1,16 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Noah Grotesque Regular";
+  src: url("../src/fonts/Noah\ Grotesque\ Regular.woff");
+}
+
+@font-face {
+  font-family: "Noah Grotesque Heavy";
+  src: url("../src/fonts/Noah\ Grotesque\ Heavy.woff");
+}
+
+@font-face {
+  font-family: "Noah Grotesque Bold";
+  src: url("../src/fonts/Noah\ Grotesque\ Bold.woff");
 }
 
 .App-logo {

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
+.con {
+  margin-top: 10rem;
+  position: relative;
+  h3 {
+    text-transform: uppercase;
+    color: #66902f;
+    font-size: 18px;
+    font-family: "Noah Grotesque Regular";
+    margin-bottom: 3rem;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 80px;
+    line-height: 5rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+  }
+
+  button {
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 1px solid #66902f;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  button:hover {
+    border-color: #66902fb0;
+  }
+}
