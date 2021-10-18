@@ -1,4 +1,5 @@
 import "./bannerHeading.scss";
+import Button from "../common/button/button";
 const BannerHeading = () => {
   return (
     <div className="container con">
@@ -8,7 +9,7 @@ const BannerHeading = () => {
         <br /> agency.
       </h1>
 
-      <button>Getting Started</button>
+      <Button label="Get Started" />
     </div>
   );
 };

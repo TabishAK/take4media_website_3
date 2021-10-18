@@ -1,17 +1,9 @@
-@font-face {
-  font-family: "Noah Grotesque Regular";
-  src: url("../src/fonts/Noah\ Grotesque\ Regular.woff");
-}
-
-@font-face {
-  font-family: "Noah Grotesque Heavy";
-  src: url("../src/fonts/Noah\ Grotesque\ Heavy.woff");
-}
-
-@font-face {
-  font-family: "Noah Grotesque Bold";
-  src: url("../src/fonts/Noah\ Grotesque\ Bold.woff");
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +14,15 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
 }
 
 .App-header {

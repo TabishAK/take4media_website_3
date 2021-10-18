@@ -1,0 +1,19 @@
+.testimonial-card {
+  position: relative;
+  padding: 75px 45px 75px 45px;
+  background-color: #363636;
+  .rating-stars {
+    svg {
+      fill: #fec42d;
+      font-size: 20px;
+    }
+  }
+
+  p {
+    margin-top: 2rem;
+    color: white;
+  }
+}
+.row {
+  margin-top: 5rem;
+}
