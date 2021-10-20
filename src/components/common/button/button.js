@@ -1,6 +1,7 @@
+import { propTypes } from "react-bootstrap/esm/Image";
 import "./button.scss";
-const Button = ({ label }) => {
-  return <button>{label}</button>;
+const Button = ({ label, style }) => {
+  return <button style={style}>{label}</button>;
 };
 
 export default Button;

@@ -6,11 +6,10 @@ import Navbar from "../components/navbar/navbar";
 import Works from "../components/works/works";
 import "./home.scss";
 import About from "./../components/about/about";
-
-import Heading from "../components/common/heading/heading";
-
-import TestimonialCard from "../components/cards/testimonialCard/testimonialCard";
-import SimpleSlider from "./../components/carousel/carousel";
+import Testimonials from "./../components/testimonials/testimonial";
+import News from "./../components/news/news";
+import ProjectInMind from "./../components/project_in_mind/project_in_mind";
+import Footer from "./../components/footer/footer";
 
 const Home = () => {
   return (
@@ -28,27 +27,10 @@ const Home = () => {
       </div>
       <Works />
       <About />
-
-      <SimpleSlider />
-
-      {/* <div className="container-fluid">
-        <div className="row">
-          <div className="col-xl-3">
-            <TestimonialCard />
-          </div>
-          <div className="col-xl-3">
-            <TestimonialCard />
-          </div>
-          <div className="col-xl-3">
-            <TestimonialCard />
-          </div>
-        </div>
-      </div> */}
-
-      <br />
-      <br />
-      <br />
-      <br />
+      <Testimonials />
+      <News />
+      <ProjectInMind />
+      <Footer />
     </div>
   );
 };

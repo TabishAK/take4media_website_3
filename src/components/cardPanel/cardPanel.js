@@ -6,7 +6,7 @@ import "./cardPanel.scss";
 
 const CardPanel = () => {
   return (
-    <div className="container custom-con-1">
+    <div className="container upper-gap">
       <div className="row cards-panel">
         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <BannerCard

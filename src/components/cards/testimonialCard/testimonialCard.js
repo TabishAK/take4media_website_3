@@ -1,5 +1,5 @@
 import { AiFillStar } from "react-icons/ai";
-import suhab from "../../../images/icons/asd.png";
+import suhab from "../../../images/icons/asd.jpg";
 import quoteIcon from "../../../images/icons/1.png";
 import "./testimonialCard.scss";
 const TestimonialCard = () => {
@@ -14,24 +14,28 @@ const TestimonialCard = () => {
         vulputate augue sed, varius velit.
       </p>
 
-      <div className="rating-stars">
+      <div className="rating-stars mt-5">
         <center>
           {[1, 2, 3, 4, 5].map((stars) => (
             <AiFillStar />
           ))}
         </center>
       </div>
+      <center>
+        <img
+          src={suhab}
+          style={{
+            width: "65px",
+            position: "relative",
+            bottom: "-162px",
+            borderRadius: "60px",
+          }}
+          alt="epmloyee"
+        />
 
-      <img
-        src={suhab}
-        style={{
-          right: "195px",
-          width: "65px",
-          position: "absolute",
-          bottom: "-30px",
-        }}
-        alt="epmloyee"
-      />
+        <h5 className="name">Jhon Doe</h5>
+        <h6 className="designation">Designation</h6>
+      </center>
     </div>
   );
 };

@@ -1,16 +1,17 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Image } from "semantic-ui-react";
+import "./carousel.scss";
+import TestimonialCard from "../cards/testimonialCard/testimonialCard";
 
 const Simple = ({ deviceType }) => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 4,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -38,20 +39,14 @@ const Simple = ({ deviceType }) => {
 
   return (
     <Carousel
-      ssr
-      partialVisbile
       deviceType={deviceType}
       itemClass="image-item"
+      showDots
       responsive={responsive}
+      arrows={false}
     >
-      {images.slice(0, 5).map((image) => {
-        return (
-          <Image
-            draggable={false}
-            style={{ width: "100%", height: "100%" }}
-            src={image}
-          />
-        );
+      {images.map((image) => {
+        return <TestimonialCard />;
       })}
     </Carousel>
   );
