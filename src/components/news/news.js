@@ -17,7 +17,7 @@ const News = () => {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-xl-4">
+          <div className="col-xl-4 col-lg-4">
             <div className="img-text">
               <img src={news1} alt="" />
               <p className="mt-3">
@@ -31,7 +31,7 @@ const News = () => {
               <Button label="Read More" />
             </div>
           </div>
-          <div className="col-xl-4">
+          <div className="col-xl-4 col-lg-4">
             <div className="img-text">
               <img src={news2} alt="" />
               <p className="mt-3">
@@ -45,7 +45,7 @@ const News = () => {
               <Button label="Read More" />
             </div>
           </div>
-          <div className="col-xl-4">
+          <div className="col-xl-4 col-lg-4">
             <div className="img-text">
               <img src={news3} alt="" />
               <p className="mt-3">

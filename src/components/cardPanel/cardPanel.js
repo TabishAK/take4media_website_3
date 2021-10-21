@@ -8,7 +8,7 @@ const CardPanel = () => {
   return (
     <div className="container upper-gap">
       <div className="row cards-panel">
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
           <BannerCard
             class="cards"
             name="Future Concept."
@@ -16,7 +16,7 @@ const CardPanel = () => {
           />
         </div>
 
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
           <BannerCard
             class="cards middle-cards"
             name="The Big Ideas."
@@ -24,7 +24,7 @@ const CardPanel = () => {
           />
         </div>
 
-        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
           <BannerCard
             class="cards "
             name="Creative Solutions."

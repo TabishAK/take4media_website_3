@@ -6,12 +6,12 @@ import TestimonialCard from "../cards/testimonialCard/testimonialCard";
 const Simple = ({ deviceType }) => {
   const responsive = {
     superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 1400 },
       items: 4,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      breakpoint: { max: 1400, min: 900 },
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },

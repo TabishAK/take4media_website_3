@@ -1,0 +1,62 @@
+@media (min-width: 1201px) {
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .service-card {
+    padding: 70px 48px 70px 45px !important;
+    font-size: 14px !important;
+    width: 18rem !important;
+  }
+  .react-multi-carousel-track li {
+    height: 42rem !important;
+  }
+
+  .testimonials .logos .container .row {
+    margin-left: 5rem !important;
+  }
+
+  .footer .row .col-xl-5 p {
+    margin-left: -30px;
+    color: white;
+    margin-top: 2rem;
+  }
+
+  .footer .row .col-xl-7 .row .left {
+    position: relative;
+    left: -42px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .service-card {
+    width: 21rem;
+    font-size: 13px;
+  }
+
+  .nav-icon {
+    top: -20px !important;
+    font-size: 2rem !important;
+  }
+  .footer .row .col-xl-5 img {
+    width: 70%;
+  }
+  .footer .row .col-xl-7 .col-xl-4 h3 {
+    margin-bottom: 35px;
+    font-size: 15px !important;
+  }
+  .footer .row .col-xl-7 .col-xl-4 span h6 {
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .footer .row .col-xl-5 p {
+    margin-left: -40px;
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+}
+
+@media (max-width: 575px) {
+}

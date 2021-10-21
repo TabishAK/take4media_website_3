@@ -8,14 +8,14 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-xl-5">
+          <div className="col-xl-5 col-lg-5 col-md-5">
             <img src={logo} alt="" />
             <p>We are more than a digital agency.</p>
             <hr />
           </div>
-          <div className="col-xl-7">
+          <div className="col-xl-7 col-lg-7 col-md-7">
             <div className="row">
-              <div className="col-xl-4">
+              <div className="col-xl-4 col-lg-4 col-md-4 left">
                 <h3>CONTACT US</h3>
                 <span>
                   <BsTelephone />
@@ -23,7 +23,7 @@ const Footer = () => {
                 </span>
                 <span>
                   <AiOutlineMail />
-                  <h6> anymail@take4media.com</h6>
+                  <h6> anymail@ take4media. com</h6>
                 </span>
                 <span>
                   <GoLocation />
@@ -34,7 +34,7 @@ const Footer = () => {
                   <h6> Monday to Friday</h6>
                 </span>
               </div>
-              <div className="col-xl-4 services">
+              <div className="col-xl-4 col-lg-4 col-md-4 services">
                 <h3>OUR SERVICES</h3>
                 <span>
                   <h6>Single Project</h6>
@@ -49,7 +49,7 @@ const Footer = () => {
                   <h6> Service 3</h6>
                 </span>
               </div>
-              <div className="col-xl-4">
+              <div className="col-xl-4 col-lg-4 col-md-4">
                 <h3>ABOUT US</h3>
                 <span>
                   <h6>About Us</h6>
