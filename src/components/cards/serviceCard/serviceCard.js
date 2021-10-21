@@ -3,7 +3,7 @@ import "./serviceCard.scss";
 const ServiceCard = (props) => {
   return (
     <div
-      style={{ background: props.class ? "#4d7c0f" : "" }}
+      style={{ background: props.class ? "#66902f" : "" }}
       className="service-card"
     >
       {props.icon}
