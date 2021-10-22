@@ -4,42 +4,42 @@ const Accordian = () => {
     <>
       <div class="accordion">
         <ul>
-          <li tabindex="1">
+          <li>
             <div>
               <a>
                 <h2>Curtain & Drapes</h2>
               </a>
             </div>
           </li>
-          <li tabindex="2">
+          <li>
             <div>
               <a>
                 <h2>Table Runners</h2>
               </a>
             </div>
           </li>
-          <li tabindex="3">
+          <li>
             <div>
               <a>
                 <h2>Bedding</h2>
               </a>
             </div>
           </li>
-          <li tabindex="4">
+          <li>
             <div>
               <a>
                 <h2></h2>
               </a>
             </div>
           </li>
-          <li tabindex="5">
+          <li>
             <div>
               <a>
                 <h2>Hotel Blackout</h2>
               </a>
             </div>
           </li>
-          <li tabindex="6">
+          <li>
             <div>
               <a>
                 <h2>Lorem Ipsum</h2>

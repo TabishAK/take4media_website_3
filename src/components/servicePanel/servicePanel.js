@@ -18,7 +18,7 @@ const ServicePanel = () => {
         <Heading heading="Services." />
 
         <div className="row ">
-          <div className="col-xl-4 col-lg-4 col-md-6">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <ServiceCard
               heading="Digital Strategy"
               icon={<BsBarChartLine />}
@@ -26,7 +26,7 @@ const ServicePanel = () => {
     luctus."
             />
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <ServiceCard
               heading="UX Design"
               icon={<BsFillPencilFill />}
@@ -34,7 +34,7 @@ const ServicePanel = () => {
     luctus."
             />
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <ServiceCard
               class="different"
               heading="UI Design"
@@ -43,7 +43,7 @@ const ServicePanel = () => {
     luctus."
             />
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 ">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
             <ServiceCard
               heading="Social Media"
               icon={<BsGlobe />}
@@ -51,7 +51,7 @@ const ServicePanel = () => {
     luctus."
             />
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <ServiceCard
               heading="Design Concept"
               icon={<BsBookmarkCheck />}
@@ -59,7 +59,7 @@ const ServicePanel = () => {
     luctus."
             />
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6">
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <ServiceCard
               heading="Media Pairing"
               icon={<RiBarChartFill />}

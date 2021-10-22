@@ -29,21 +29,21 @@ const About = () => {
         </div>
 
         <div className="row r2">
-          <div className="col-xl-4 col-md-4">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4">
             <h4>Who we are</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div className="col-xl-4 col-md-4 left-border">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 left-border">
             <h4>Our philosophy</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div className="col-xl-4 col-md-4 left-border">
+          <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 left-border">
             <h4>How we work</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

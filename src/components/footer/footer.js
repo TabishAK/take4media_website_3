@@ -8,14 +8,14 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-xl-5 col-lg-5 col-md-5">
+          <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
             <img src={logo} alt="" />
             <p>We are more than a digital agency.</p>
             <hr />
           </div>
-          <div className="col-xl-7 col-lg-7 col-md-7">
+          <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
             <div className="row">
-              <div className="col-xl-4 col-lg-4 col-md-4 left">
+              <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 left">
                 <h3>CONTACT US</h3>
                 <span>
                   <BsTelephone />
@@ -34,7 +34,7 @@ const Footer = () => {
                   <h6> Monday to Friday</h6>
                 </span>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-4 services">
+              <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 our-services">
                 <h3>OUR SERVICES</h3>
                 <span>
                   <h6>Single Project</h6>
@@ -49,7 +49,7 @@ const Footer = () => {
                   <h6> Service 3</h6>
                 </span>
               </div>
-              <div className="col-xl-4 col-lg-4 col-md-4">
+              <div className="col-xl-4 col-lg-4 col-sm-12 col-md-4 col-xs-12 right">
                 <h3>ABOUT US</h3>
                 <span>
                   <h6>About Us</h6>
@@ -77,10 +77,6 @@ const Footer = () => {
           <li>PRIVACY POLICY</li>
           <li>TERMS OF USE</li>
         </ul>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-        </p>
       </div>
     </div>
   );
