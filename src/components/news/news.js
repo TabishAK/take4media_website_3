@@ -9,10 +9,7 @@ const News = () => {
   return (
     <div className="news">
       <div className="container">
-        <Heading
-          heading="Latest News"
-          subHeading="CHECK OUT SOME OF OUR NEWS"
-        />
+        <Heading heading="Blogs" subHeading="CHECK OUT SOME OF OUR BLOGS" />
       </div>
 
       <div className="container-fluid">
@@ -66,8 +63,6 @@ const News = () => {
       <br />
       <br />
       <br />
-
-      <Line />
     </div>
   );
 };

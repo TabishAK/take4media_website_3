@@ -9,7 +9,7 @@ const BannerHeading = () => {
         <br /> agency.
       </h1>
 
-      <Button label="Get Started" />
+      <Button style={{ marginTop: 50 }} label="Get Started" />
     </div>
   );
 };

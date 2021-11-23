@@ -3,7 +3,8 @@
   padding: 80px 90px 70px 55px;
   background-color: #121212;
   width: 100%;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid #66902f;
+  cursor: pointer;
   svg {
     font-size: 40px;
     fill: #66902f;
@@ -20,8 +21,12 @@
 }
 
 .service-card:hover {
-  border-color: #66902f;
+  background-color: #66902f;
+  border-bottom: 5px solid white;
   transition: 0.5s;
+  svg {
+    fill: white;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {

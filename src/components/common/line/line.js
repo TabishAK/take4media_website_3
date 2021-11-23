@@ -1,7 +1,7 @@
 import "./line.scss";
-const Line = () => {
+const Line = (props) => {
   return (
-    <div className="line-container">
+    <div style={{ top: props.top }} className="line-container">
       <div className="line"></div>
     </div>
   );

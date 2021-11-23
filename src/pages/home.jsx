@@ -29,7 +29,12 @@ const Home = () => {
       <About />
       <Testimonials />
       <News />
-      <ProjectInMind />
+      <ProjectInMind
+        data={{
+          heading: "Have any project in mind?",
+          buttonLabel: "MAKE INQUIRY",
+        }}
+      />
       <Footer />
     </div>
   );

@@ -2,6 +2,43 @@
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
+  .our-strategy .row .col-xl-6 p {
+    font-size: 16px !important;
+    line-height: 30px !important;
+    margin-top: 1rem !important;
+  }
+  .social-media h1 {
+    font-size: 38px !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  .our-strategy .row .col-xl-6 .percentages {
+    margin-top: 3rem !important;
+  }
+
+  .our-strategy .row {
+    justify-content: center !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .over-write {
+    text-align: left !important;
+    font-size: 40px !important;
+    line-height: 45px !important;
+  }
+  .social-media-banner .headings .row .col-xl-6 img {
+    margin-top: 3rem !important;
+    width: 100% !important;
+  }
+  .service-page-1 .how-to-use .how-to-use-box .row .col-xl-2 img {
+    width: 100% !important;
+  }
+
+  .help-from-experts .help-from-experts-box .row .col-xl-5 img {
+    width: 100% !important;
+    top: 60px !important;
+    position: relative !important;
+  }
+
   .service-card {
     padding: 70px 48px 70px 45px !important;
     font-size: 14px !important;
@@ -33,7 +70,120 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .dual {
+    position: relative;
+    top: 5rem;
+  }
+  .our-strategy .row {
+    justify-content: center !important;
+  }
+  .our-strategy .row .col-xl-6 .percentages {
+    margin-top: 0rem !important;
+  }
+
+  .our-strategy .row .col-xl-6 p {
+    font-size: 15px !important;
+    line-height: 30px !important;
+    margin-top: 1rem !important;
+  }
+
+  .social-media h1 {
+    font-size: 30px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form h6 {
+    font-size: 15px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form hr {
+    width: 13rem !important;
+  }
+  .social-media-banner .headings .row .col-xl-6 .form h1 {
+    font-size: 22px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form {
+    padding: 6px 40px !important;
+  }
+
+  .fa-circle {
+    top: 28px !important;
+  }
+  .md-email {
+    top: 95px !important;
+  }
+  .bs-telephone {
+    top: 160px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form form svg {
+    left: 8px !important;
+    font-size: 18px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form form input {
+    width: 16rem !important;
+    height: 40px !important;
+    margin-top: 1rem !important;
+    margin-bottom: 10px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form {
+    width: fit-content !important;
+    padding-top: 14px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 img {
+    margin-top: 2rem !important;
+    width: 100% !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .over-write {
+    font-size: 28px !important;
+    line-height: 3rem !important;
+    text-align: left !important;
+  }
+
+  .social-media-banner .headings {
+    padding: 48px !important;
+  }
+
+  .service-page-1 .how-to-use .how-to-use-box .row .col-xl-2 img {
+    width: 10rem !important;
+    position: relative !important;
+    left: -5rem !important;
+  }
+
+  .key-features .key-features-box .row h1 {
+    text-align: center !important;
+  }
+
+  .key-features .key-features-box .row .col-xl-4 p {
+    text-align: center !important;
+  }
+
+  .key-features .key-features-box .row .col-xl-4 {
+    text-align: center !important;
+  }
+
+  .help-from-experts .help-from-experts-box .row .col-xl-5 img {
+    margin-top: 5rem !important;
+  }
+
+  .service-banner .container .service-provider-heading {
+    font-size: 65px !important;
+  }
+
+  .service-banner .container .service-heading h1 {
+    font-size: 60px !important;
+    top: 0px !important;
+  }
+
+  .service-banner .container .service-heading .logo {
+    width: 45% !important;
+  }
+
   .footer {
     height: 33rem !important;
   }
@@ -68,6 +218,80 @@
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
+  .percentages {
+    .col-xl-4 {
+      margin-bottom: 3rem;
+    }
+  }
+  .our-strategy .row .col-xl-6 p {
+    font-size: 16px !important;
+    line-height: 28px !important;
+    margin-top: 1rem !important;
+  }
+
+  .social-media h1 {
+    font-size: 30px !important;
+  }
+
+  .our-strategy .row .col-xl-6 .percentages {
+    text-align: -webkit-center;
+  }
+  .social-media-banner .headings .row .col-xl-6 img {
+    margin-top: 3rem !important;
+    width: 100% !important;
+    margin-bottom: 4rem !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 h3 {
+    font-size: 20px !important;
+  }
+  .social-media-banner .headings .row .col-xl-6 .over-write {
+    text-align: left !important;
+    font-size: 33px !important;
+    line-height: 45px !important;
+  }
+  .our-services {
+    position: relative !important;
+    left: 24px !important;
+    margin-top: 1.5rem !important;
+  }
+  .service-page-1 .how-to-use .how-to-use-box .row .col-xl-2 img {
+    width: 40% !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .how-to-use-box {
+    .row {
+      .col-xl-2 {
+        text-align: center !important;
+      }
+    }
+  }
+
+  .key-features .key-features-box .row h1 {
+    text-align: center !important;
+  }
+
+  .key-features .key-features-box .row .col-xl-4 {
+    text-align: center !important;
+  }
+  .key-features .key-features-box .row .col-xl-4 p {
+    text-align: center;
+  }
+
+  .service-banner .container .service-provider-heading {
+    font-size: 65px !important;
+    line-height: 4.5rem !important;
+  }
+
+  .service-banner .container .service-heading h1 {
+    font-size: 50px !important;
+    top: 0px !important;
+  }
+
+  .service-banner .container .service-heading .logo {
+    width: 50% !important;
+  }
   .about .row .bg-2 {
     margin-top: 2rem;
   }
@@ -123,8 +347,203 @@
 }
 
 @media (max-width: 575px) {
+  .social-media-banner .headings .row .col-xl-6 img {
+    width: 100% !important;
+  }
+
+  .fa-circle {
+    top: 15px !important;
+  }
+  .md-email {
+    top: 77px !important;
+  }
+  .bs-telephone {
+    top: 142px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form hr {
+    width: 10rem !important;
+  }
+  .social-media-banner .headings .row .col-xl-6 .form form svg {
+    left: 55px !important;
+  }
+  .social-media-banner .headings .row .col-xl-6 .form {
+    margin-top: 5rem;
+    width: 19rem !important;
+    padding: 20px 0px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form form input {
+    width: 13rem !important;
+    height: 45px !important;
+    margin-top: 0rem !important;
+    margin-bottom: 18px !important;
+    font-size: 14px !important;
+  }
+
+  .ready-to-grow .contact-bar span {
+    margin: 20px !important;
+  }
+
+  .ready-to-grow .contact-bar {
+    display: grid !important;
+  }
+  .ready-to-grow h6 {
+    font-size: 14px !important;
+  }
+
+  .ready-to-grow h1 {
+    font-size: 24px !important;
+  }
+
+  .our-clients .container .row .col img {
+    width: 140% !important;
+  }
+
+  .logo-section .container .row .col img {
+    width: 125% !important;
+  }
+  .our-clients h1 {
+    font-size: 26px !important;
+  }
+  .how-we-help h1 {
+    font-size: 26px !important;
+  }
+
+  .our-strategy .row .col-xl-6 .percentages {
+    text-align: -webkit-center;
+    margin-top: 2rem !important;
+  }
+
+  .our-strategy .row .col-xl-6 p {
+    font-size: 14px !important;
+    line-height: 26px !important;
+    margin-top: 2rem !important;
+  }
+
+  .our-strategy .row .col-xl-6 h1 {
+    font-size: 28px !important;
+  }
+
+  .our-strategy .sub-heading {
+    font-size: 14px !important;
+  }
+  .service-card {
+    padding: 20px 30px 20px 40px !important;
+  }
+  .our-strategy .main-heading {
+    font-size: 26px !important;
+  }
+
+  .social-media-services h6 {
+    font-size: 14px !important;
+  }
+
+  .social-media-services h1 {
+    font-size: 25px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .over-write {
+    .social-media-banner .headings .row .col-xl-6 img {
+      margin-top: 2rem !important;
+      width: 100% !important;
+    }
+
+    font-size: 24px !important;
+    text-align: left !important;
+    line-height: 38px !important;
+  }
+
+  .social-media-banner .headings {
+    padding: 20px !important;
+  }
+
+  .how-to-use-box {
+    .row {
+      .col-xl-2 {
+        text-align: center !important;
+      }
+    }
+  }
+  .project-in-mind {
+    h1 {
+      font-size: 2rem !important;
+    }
+
+    h6 {
+      font-size: 14px !important;
+      margin-top: 2rem !important;
+    }
+  }
+  .service-page-1 .how-to-use .how-to-use-box {
+    margin-top: 5rem !important;
+    padding: 20px !important;
+  }
+  .service-page-1 .how-to-use .how-to-use-box .row .col-xl-2 img {
+    width: 30% !important;
+  }
+  .discover-services .container .row .col-xl-4 {
+    margin-bottom: 2rem !important;
+    width: -moz-fit-content !important;
+    border-bottom: 1px solid #66902f !important;
+    width: fit-content !important;
+  }
+
+  .service-page-1 .how-to-use .how-to-use-box .row .col-xl-10 h1 {
+    margin-top: 3rem !important;
+    font-size: 22px !important;
+    margin-bottom: 3rem !important;
+    text-align: center !important;
+  }
+
+  .help-from-experts .help-from-experts-box .row .col-xl-7 p {
+    text-align: center !important;
+    line-height: 25px !important;
+  }
+
+  .help-from-experts .help-from-experts-box .row .col-xl-5 img {
+    width: 100% !important;
+    margin-top: 3rem !important;
+  }
+
+  .service-banner .container .service-provider-heading {
+    font-size: 55px !important;
+    left: 15px !important;
+    position: relative !important;
+    line-height: 4rem !important;
+  }
+  .help-from-experts .help-from-experts-box .row .col-xl-7 h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .help-from-experts .help-from-experts-box .row .col-xl-7 h6 {
+    text-align: center !important;
+  }
+
+  .service-banner .container p {
+    font-size: 16px !important;
+    left: 15px !important;
+  }
+
+  .service-banner .container .service-heading h1 {
+    font-size: 45px !important;
+    top: -5px !important;
+    left: 15px !important;
+  }
+
+  .service-banner .container .service-heading .logo {
+    width: 60% !important;
+  }
+
+  .service-banner .container .service-heading {
+    margin-top: 10rem !important;
+    display: block !important;
+  }
+
   .footer {
-    height: 62rem;
+    height: 65rem;
   }
 
   .testimonials .logos .container .row {
