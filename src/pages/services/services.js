@@ -7,7 +7,12 @@ import "./services.scss";
 import Footer from "./../../components/footer/footer";
 import ProjectInMind from "../../components/project_in_mind/project_in_mind";
 import Line from "../../components/common/line/line";
+import { useEffect } from "react";
 const Services = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="service-page-1">
       <ServiceBanner />

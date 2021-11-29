@@ -9,8 +9,13 @@ import OurClients from "./../../components/social-media-components/our-clients/o
 import ReadyToGrow from "../../components/social-media-components/ready-to-grow/ready-to-grow";
 import Testimonials from "../../components/testimonials/testimonial";
 import News from "../../components/news/news";
+import { useEffect } from "react";
 
-const SocialMedia = () => {
+const SocialMedia = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="social-media">
       <SoicalMediaBanner />
