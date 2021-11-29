@@ -25,3 +25,6 @@ p {
 a {
   text-decoration: none !important;
 }
+.ReactCollapse--collapse {
+  transition: height 600ms;
+}
