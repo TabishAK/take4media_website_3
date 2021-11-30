@@ -71,6 +71,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .social-media .faqs .row .col-lg-6 img {
+    width: 85% !important;
+    position: relative !important;
+    top: 8rem !important;
+  }
+
   .dual {
     position: relative;
     top: 5rem;
@@ -218,6 +224,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
+  .social-media .faqs .row .col-lg-6 img {
+    margin-top: 8rem;
+  }
+
   .percentages {
     .col-xl-4 {
       margin-bottom: 3rem;
@@ -347,6 +357,14 @@
 }
 
 @media (max-width: 575px) {
+  .key-features .key-features-box .row {
+    padding: 15px !important;
+  }
+
+  .social-media .faqs .row .col-lg-6 img {
+    margin-top: 8rem;
+  }
+
   .social-media-banner .headings .row .col-xl-6 img {
     width: 100% !important;
   }

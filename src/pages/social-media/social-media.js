@@ -68,7 +68,7 @@ const SocialMedia = (props) => {
           />
 
           <div className="row">
-            <div className="col-lg-6 col-sm-6 ">
+            <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 ">
               {comment.map((c) => (
                 <div className="comment">
                   <div className="number">{c.number}</div>
@@ -88,7 +88,7 @@ const SocialMedia = (props) => {
                 </div>
               ))}
             </div>
-            <div className="col-lg-6 col-sm-6 pic-side">
+            <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 pic-side">
               <img className="img-side-faq" src={getHelp} alt="" />
             </div>
           </div>

@@ -10,11 +10,9 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/amazon-services" element={<Services />} />
-        <Route path="/social-media-services" element={<SocialMedia />} />
-      </Routes>
+      <Route exact path="/" component={Home} />
+      <Route path="/amazon-services" component={Services} />
+      <Route path="/social-media-services" component={SocialMedia} />
     </div>
   );
 }
