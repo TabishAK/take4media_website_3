@@ -11,6 +11,10 @@ import "./creativePage.scss";
 import News from "./../../components/news/news";
 import CreativeSupportingPartner from "../../components/creative-page-component/creative-supporting-partner/creative-supporting-partner";
 const CreativePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="creative-page">
       <CreativeBanner />
