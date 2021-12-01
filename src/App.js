@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import "./mediaquery.scss";
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
+import CreativePage from "./pages/creativePage/creative-page";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route path="/amazon-services" component={Services} />
       <Route path="/social-media-services" component={SocialMedia} />
+      <Route path="/creative-services" component={CreativePage} />
     </div>
   );
 }

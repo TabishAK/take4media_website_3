@@ -1,0 +1,28 @@
+.our-clients-creative {
+  background-color: #121212;
+  display: grid;
+
+  h1 {
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+  }
+
+  h6 {
+    text-align: center;
+    color: #66902f;
+    margin-top: 2rem;
+    text-transform: uppercase;
+  }
+
+  .container {
+    .row {
+      margin-bottom: 5rem;
+      .col {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

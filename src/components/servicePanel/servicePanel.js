@@ -14,12 +14,14 @@ const ServicePanel = () => {
 
         <div className="row service-row">
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-            <ServiceCard
-              heading="Digital Strategy and Creativity"
-              icon={<BsBarChartLine />}
-              paragraph=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu
+            <Link to="/creative-services">
+              <ServiceCard
+                heading="Digital Strategy and Creativity"
+                icon={<BsBarChartLine />}
+                paragraph=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu
     luctus."
-            />
+              />
+            </Link>
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <Link to="/amazon-services">
