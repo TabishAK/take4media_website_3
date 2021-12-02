@@ -10,6 +10,8 @@ import Testimonials from "./../components/testimonials/testimonial";
 import News from "./../components/news/news";
 import ProjectInMind from "./../components/project_in_mind/project_in_mind";
 import Footer from "./../components/footer/footer";
+import NewTestimonial from "./../components/new-testimonial/new-testimonial";
+import NewBlog from "./../components/new-blog/new-blog";
 
 const Home = () => {
   return (
@@ -27,8 +29,9 @@ const Home = () => {
       </div>
       <Works />
       <About />
-      <Testimonials />
-      <News />
+      <NewTestimonial />
+
+      <NewBlog />
       <ProjectInMind
         data={{
           heading: "Have any project in mind?",

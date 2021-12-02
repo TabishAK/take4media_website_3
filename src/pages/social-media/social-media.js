@@ -7,9 +7,10 @@ import Footer from "./../../components/footer/footer";
 import OurStrategy from "../../components/social-media-components/our-strategy/our-strategy";
 import OurClients from "./../../components/social-media-components/our-clients/our-clients";
 import ReadyToGrow from "../../components/social-media-components/ready-to-grow/ready-to-grow";
-import Testimonials from "../../components/testimonials/testimonial";
 import News from "../../components/news/news";
 import { useEffect, useState } from "react";
+import NewTestimonial from "./../../components/new-testimonial/new-testimonial";
+import NewBlog from "./../../components/new-blog/new-blog";
 const SocialMedia = (props) => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,11 +23,9 @@ const SocialMedia = (props) => {
       <SocialMediaServices />
       <OurStrategy />
       <HowWeHelp />
-      <Testimonials />
-      <News />
-
+      <NewTestimonial />
+      <NewBlog />
       <OurClients />
-
       <ReadyToGrow />
       <Footer />
     </div>

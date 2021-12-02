@@ -10,6 +10,9 @@ import CreativeTestimonials from "./../../components/creative-page-component/cre
 import "./creativePage.scss";
 import News from "./../../components/news/news";
 import CreativeSupportingPartner from "../../components/creative-page-component/creative-supporting-partner/creative-supporting-partner";
+import { useEffect } from "react";
+import NewBlog from "./../../components/new-blog/new-blog";
+
 const CreativePage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,7 +26,7 @@ const CreativePage = () => {
       <OurClient />
       <CreativeBuisnessProcess />
       <CreativeTestimonials />
-      <News />
+      <NewBlog />
       <CreativeFaqs />
       <CreativeSupportingPartner />
 

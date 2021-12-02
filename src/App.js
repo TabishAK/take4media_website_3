@@ -7,6 +7,8 @@ import "./mediaquery.scss";
 import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import CreativePage from "./pages/creativePage/creative-page";
+import Blog from "./pages/Blogs/blog";
+import AboutUs from "./pages/about-us/about-us";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Route path="/amazon-services" component={Services} />
       <Route path="/social-media-services" component={SocialMedia} />
       <Route path="/creative-services" component={CreativePage} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/about-us" component={AboutUs} />
     </div>
   );
 }
