@@ -9,6 +9,10 @@ import {
   MdOutlineProductionQuantityLimits,
 } from "react-icons/md";
 
+import { SiMarketo } from "react-icons/si";
+import { HiDocumentSearch } from "react-icons/hi";
+import { FaAdversal, FaConnectdevelop } from "react-icons/fa";
+
 import { SiInfluxdb } from "react-icons/si";
 import Line from "./../../common/line/line";
 const AmazonServices = () => {
@@ -22,58 +26,36 @@ const AmazonServices = () => {
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <ServiceCard
-              heading="Research"
+              heading="Product Hunting"
               icon={<GiArchiveResearch />}
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
             />
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <ServiceCard
-              heading="Social media"
-              icon={<MdSocialDistance />}
+              heading="Amazon SEO & Product Optimization"
+              icon={<HiDocumentSearch />}
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
             />
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <ServiceCard
-              heading="All Paid Media Buying"
-              icon={<MdPaid />}
+              heading="Amazon Advertising Management"
+              icon={<FaAdversal />}
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
             />
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <ServiceCard
-              heading="Website SEO"
-              icon={<MdScreenSearchDesktop />}
+              heading="Amazon Stores & Marketplace Launch"
+              icon={<SiMarketo />}
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
             />
           </div>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <ServiceCard
-              heading="Email Marketing"
-              icon={<MdMarkEmailUnread />}
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
-            />
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <ServiceCard
-              heading="Product Launching"
-              icon={<MdOutlineProductionQuantityLimits />}
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
-            />
-          </div>
-
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <ServiceCard
-              heading="Public Relations"
-              icon={<GiPublicSpeaker />}
-              paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
-            />
-          </div>
-          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-            <ServiceCard
-              heading="Influencer Marketing"
-              icon={<SiInfluxdb />}
+              heading="Product Development"
+              icon={<FaConnectdevelop />}
               paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu luctus."
             />
           </div>
