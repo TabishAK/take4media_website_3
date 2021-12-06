@@ -10,18 +10,18 @@ const SoicalMediaBanner = () => {
     <div className="social-media-banner">
       <Navbar />
 
-      <div className="headings">
+      <div className="headings container">
         <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 heading-column">
             <h3>America’s #1 Rated Digital Marketing Agency.</h3>
             <h1 className="over-write">
-              Outsmart the competition with best-in-class digital marketing
+              Outsmart the competition with best in class digital marketing
               services
             </h1>
 
             <img src={allLogos} alt="" />
           </div>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12  form-coloumn">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 form-coloumn">
             <div className="form">
               <h1>Grow Your Brand</h1>
               <h6>by partnering with SmartSites</h6>

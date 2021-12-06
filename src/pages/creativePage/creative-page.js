@@ -12,6 +12,7 @@ import News from "./../../components/news/news";
 import CreativeSupportingPartner from "../../components/creative-page-component/creative-supporting-partner/creative-supporting-partner";
 import { useEffect } from "react";
 import NewBlog from "./../../components/new-blog/new-blog";
+import NewTestimonial from "./../../components/new-testimonial/new-testimonial";
 
 const CreativePage = () => {
   useEffect(() => {
@@ -25,7 +26,7 @@ const CreativePage = () => {
       <CreativeServices />
       <OurClient />
       <CreativeBuisnessProcess />
-      <CreativeTestimonials />
+      <NewTestimonial />
       <NewBlog />
       <CreativeFaqs />
       <CreativeSupportingPartner />

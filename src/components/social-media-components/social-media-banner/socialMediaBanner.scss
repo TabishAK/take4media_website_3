@@ -1,13 +1,13 @@
 .social-media-banner {
   background-color: #0b0c10;
   .headings {
-    padding: 110px;
+    padding: 110px 45px;
     margin-top: 4rem;
     .row {
       .col-xl-6 {
         img {
           margin-top: 3rem;
-          width: 60%;
+          width: 90%;
         }
 
         h3 {
@@ -18,8 +18,8 @@
         }
         .over-write {
           color: white;
-          font-size: 55px;
-          line-height: 5rem;
+          font-size: 45px;
+          line-height: 4rem;
           text-align: left;
           font-weight: 800;
           letter-spacing: 0.5px;
@@ -76,7 +76,10 @@
       }
 
       .form-coloumn {
-        text-align: -webkit-center;
+        text-align: -webkit-right;
+      }
+      .heading-column {
+        text-align: -webkit-left;
       }
     }
   }

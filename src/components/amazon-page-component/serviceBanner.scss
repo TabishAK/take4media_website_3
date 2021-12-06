@@ -1,7 +1,7 @@
 .service-banner {
   background-color: #0b0c10;
   .headings {
-    padding: 110px;
+    padding: 110px 45px;
     margin-top: 4rem;
     .row {
       .col-xl-6 {
@@ -82,7 +82,10 @@
       }
 
       .form-coloumn {
-        text-align: -webkit-center;
+        text-align: -webkit-right;
+      }
+      .heading-coloumn {
+        text-align: -webkit-left;
       }
     }
   }

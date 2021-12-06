@@ -1,5 +1,42 @@
+import getHelp from "../../../images/services/help_from_experts.svg";
+import { AiFillCaretUp, AiFillCaretDown } from "react-icons/ai";
+import Heading from "./../../common/heading/heading";
+import { Collapse } from "react-collapse";
 import "./social-media-faqs.scss";
+import { useState } from "react";
+
 const SocialMediaFaqs = () => {
+  const [comment, setComment] = useState([
+    {
+      number: "01",
+      comment:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+      isOpened: true,
+    },
+    {
+      number: "02",
+      comment:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+      isOpened: false,
+    },
+    {
+      number: "03",
+      comment:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five",
+      isOpened: false,
+    },
+  ]);
+
+  const handleCollapse = (c) => {
+    const temp = [...comment];
+    temp.map((com) => {
+      if (com.number === c.number) {
+        com.isOpened = !com.isOpened;
+      }
+    });
+    setComment(temp);
+  };
+
   return (
     <div className="creative-faqs">
       <div className="container">

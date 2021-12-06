@@ -57,6 +57,27 @@ const CreativeStrategies = () => {
             <img src={creativeImage2} alt="" className="dual" />
           </div>
         </div>
+
+        <div className="row last-row">
+          <div
+            className="col-xl-6 col-lg-6 col-md-6"
+            style={{
+              textAlign: "-webkit-center",
+            }}
+          >
+            <img src={creativeImage2} alt="" className="dual" />
+          </div>
+          <div className="col-xl-6 col-lg-6 col-md-6">
+            <h6>Results-Driven Website Design</h6>
+            <h1>Get a beautiful website that wins customers.</h1>
+            <p>
+              Elevate your business with a trusted website that your customers
+              will love. Our award-winning website designers will represent your
+              brand in the best possible way. Your website will load extremely
+              fast and look great on all devices.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

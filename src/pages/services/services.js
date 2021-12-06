@@ -15,6 +15,7 @@ import Testimonials from "./../../components/testimonials/testimonial";
 import AmazonFaqs from "./../../components/amazon-page-component/amazon-faqs/amazon-faqs";
 import NewBlog from "./../../components/new-blog/new-blog";
 import OurClients from "./../../components/social-media-components/our-clients/our-clients";
+import NewTestimonial from "./../../components/new-testimonial/new-testimonial";
 
 const Services = () => {
   useEffect(() => {
@@ -30,9 +31,9 @@ const Services = () => {
       <AmazonHowWeHelp />
       <HelpFromExperts />
       <KeyFeatures />
-      <DiscoverServices />
+
+      <NewTestimonial />
       <HowToUse />
-      <Testimonials />
       <NewBlog />
       <AmazonFaqs />
       <OurClients />

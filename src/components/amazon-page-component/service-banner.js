@@ -10,9 +10,9 @@ const ServiceBanner = () => {
     <div className="service-banner">
       <Navbar />
 
-      <div className="headings">
+      <div className="headings container">
         <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 heading-coloumn">
             <h3>America’s #1 Rated Digital Marketing Agency.</h3>
             <h1 className="over-write">Amazon Services</h1>
             <p>
