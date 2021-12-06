@@ -1,44 +1,49 @@
-.service-banner {
-  background: #121212;
-  .container {
-    .service-heading {
-      margin-top: 14rem;
-      display: flex;
-      h1 {
-        font-size: 60px;
-        position: relative;
-        top: 7px;
-        color: white;
-        font-family: "Poppins";
+.how-to-use {
+  background-color: #0b0c10;
+  display: grid;
+  .how-to-use-box {
+    background-color: #121212;
+    margin-top: 5rem;
+    padding: 90px;
+
+    .row {
+      .col-xl-2 {
+        img {
+          width: 70%;
+        }
       }
 
-      .logo {
-        width: 28%;
+      .col-xl-10 {
+        h1 {
+          font-size: 3rem;
+          color: white;
+          letter-spacing: 0.5px;
+          margin-bottom: 3rem;
+        }
+
+        .step {
+          display: flex;
+          margin-bottom: 10px;
+          h5 {
+            color: white;
+            color: #66902f;
+          }
+          p {
+            color: white;
+            margin-left: 4rem;
+          }
+          h6 {
+            color: white;
+            margin-left: 68px;
+          }
+        }
       }
-    }
-
-    .service-provider-heading {
-      color: white;
-      font-family: "Poppins";
-      font-size: 80px;
-      font-weight: 800;
-      letter-spacing: 0.5px;
-      position: relative;
-      line-height: 5rem;
-      margin-top: 2rem;
-    }
-
-    p {
-      color: white;
-      font-size: 20px;
-      position: relative;
-      margin-top: 2rem;
     }
   }
 }
 .help-from-experts {
   display: grid;
-  background-color: #0b0c10;
+  background-color: #121212;
   .help-from-experts-box {
     .row {
       padding: 75px;
@@ -75,6 +80,7 @@
   background-color: #0b0c10;
 
   .key-features-box {
+    margin-top: 5rem;
     .row {
       padding: 75px;
       background-color: #121212;

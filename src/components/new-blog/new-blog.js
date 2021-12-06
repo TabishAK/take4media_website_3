@@ -32,7 +32,10 @@ const NewBlog = () => {
           </div>
         </div>
         <center>
-          <Button label="Show more" style={{}} />
+          <Button
+            label="Show more"
+            style={{ marginBottom: "5rem", marginTop: "2rem" }}
+          />
         </center>
       </div>
     </div>

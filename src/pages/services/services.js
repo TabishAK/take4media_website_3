@@ -1,13 +1,21 @@
-import ServiceBanner from "../../components/service-page-component/service-banner";
-import HelpFromExperts from "../../components/service-page-component/help-from-experts";
-import KeyFeatures from "../../components/service-page-component/key-features";
-import DiscoverServices from "../../components/service-page-component/discover-services";
-import hero from "../../images/services/hero.png";
-import "./services.scss";
-import Footer from "./../../components/footer/footer";
+import DiscoverServices from "../../components/amazon-page-component/discover-services";
+import HelpFromExperts from "../../components/amazon-page-component/help-from-experts";
+import ServiceBanner from "../../components/amazon-page-component/service-banner";
+import KeyFeatures from "../../components/amazon-page-component/key-features";
 import ProjectInMind from "../../components/project_in_mind/project_in_mind";
-import Line from "../../components/common/line/line";
+import HowToUse from "../../components/amazon-page-component/how-to-use";
+import Footer from "./../../components/footer/footer";
 import { useEffect } from "react";
+import "./services.scss";
+import AmazonStrategies from "./../../components/amazon-page-component/amazon-strategy/amazon-strategy";
+import AmazonServices from "../../components/amazon-page-component/amazon-services/amazon-services";
+import AmazonSupportingPartner from "./../../components/amazon-page-component/amazon-supporting-partner/amazon-supporting-partner";
+import AmazonHowWeHelp from "../../components/amazon-page-component/amazon-how-we-help/amazon-how-we-help";
+import Testimonials from "./../../components/testimonials/testimonial";
+import AmazonFaqs from "./../../components/amazon-page-component/amazon-faqs/amazon-faqs";
+import NewBlog from "./../../components/new-blog/new-blog";
+import OurClients from "./../../components/social-media-components/our-clients/our-clients";
+
 const Services = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -16,69 +24,26 @@ const Services = () => {
   return (
     <div className="service-page-1">
       <ServiceBanner />
-
+      <AmazonSupportingPartner />
+      <AmazonServices />
+      <AmazonStrategies />
+      <AmazonHowWeHelp />
       <HelpFromExperts />
       <KeyFeatures />
       <DiscoverServices />
-      <div className="how-to-use">
-        <Line top={35} />
-        <div className="container how-to-use-box">
-          <div className="row">
-            <div className="col-xl-2 col-lg-2 col-md-2">
-              <img src={hero} alt="" />
-            </div>
-            <div className="col-xl-10 col-lg-10 col-md-10">
-              <h1>How to use the Service Provider Network</h1>
-
-              <div className="step step-1">
-                <h5>Step 1</h5>
-                <h6>Become an Amazon Seller</h6>
-              </div>
-              <div className="step step-2">
-                <h5>Step 2</h5>
-                <p>
-                  Visit the SPN website and select the service category you
-                  want.
-                </p>
-              </div>
-              <div className="step step-3">
-                <h5>Step 3</h5>
-                <p>
-                  Filter results by service type, location, language, and
-                  reviews to find what you need.
-                </p>
-              </div>
-              <div className="step step-4">
-                <h5>Step 4</h5>
-                <p>
-                  Once you find the service that you’re interested in, click
-                  “Contact Provider” to raise a service request.
-                </p>
-              </div>
-              <div className="step step-5">
-                <h5>Step 5</h5>
-                <p>The provider will contact you back.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
+      <HowToUse />
+      <Testimonials />
+      <NewBlog />
+      <AmazonFaqs />
+      <OurClients />
       <ProjectInMind
         data={{
           heading: "Start your Journey with us!",
           para: "Put your products in front of the millions of customers who search Amazon every day.",
           buttonLabel: "Find Service Providers",
         }}
-        showSocialMedia={false}
+        showSocialMedia={true}
       />
-
       <Footer />
     </div>
   );

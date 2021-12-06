@@ -3,8 +3,8 @@ import allLogos from "../../images/logo/logos.png";
 import { FaUserCircle } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
-import Navbar from "./../navbar/navbar";
-import Button from "../../components/common/button/button";
+import Navbar from "../navbar/navbar";
+import Button from "../common/button/button";
 const ServiceBanner = () => {
   return (
     <div className="service-banner">

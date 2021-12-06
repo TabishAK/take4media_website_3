@@ -31,7 +31,7 @@ const ProjectInMind = (props) => {
       <center>
         <Button
           label={props.data.buttonLabel}
-          style={{ marginBottom: "12rem" }}
+          style={{ marginBottom: "12rem", marginTop: "3rem" }}
         />
       </center>
     </div>

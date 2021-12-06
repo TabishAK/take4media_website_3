@@ -6,6 +6,7 @@ import Line from "../common/line/line";
 const KeyFeatures = () => {
   return (
     <div className="key-features">
+      <Line top={50} />
       <div className="container key-features-box">
         <div className="row">
           <h1>Key Features</h1>
