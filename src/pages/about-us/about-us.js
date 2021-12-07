@@ -11,15 +11,10 @@ import sec from "../../images/about/sec2.jpg";
 import solution from "../../images/about/solution.jpg";
 import "./about-us.scss";
 import Button from "../../components/common/button/button";
-import Heading from "./../../components/common/heading/heading";
-import emp_1 from "../../images/about/emp-1.jpg";
-import emp_2 from "../../images/about/emp-2.jpg";
-import emp_3 from "../../images/about/emp-3.jpg";
-import emp_4 from "../../images/about/emp-4.jpg";
-import emp_5 from "../../images/about/emp-5.jpg";
 import ProjectInMind from "./../../components/project_in_mind/project_in_mind";
 import Footer from "../../components/footer/footer";
 import Line from "../../components/common/line/line";
+import MeetOurTeam from "./../../components/meet-our-team/meet-out-team";
 
 const AboutUs = () => {
   return (
@@ -132,35 +127,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <MeetOurTeam />
 
-      <div className="meet-our-team">
-        <div className="container">
-          <Heading
-            heading="Meet our team."
-            subHeading="THE BEST PEOPLE TO SUPPORT YOUR PROJECT"
-          />
-        </div>
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col">
-              <img src={emp_1} alt="" />
-            </div>
-            <div className="col">
-              <img src={emp_2} alt="" />
-            </div>
-            <div className="col">
-              <img src={emp_3} alt="" />
-            </div>
-            <div className="col">
-              <img src={emp_4} alt="" />
-            </div>
-            <div className="col">
-              <img src={emp_5} alt="" />
-            </div>
-          </div>
-        </div>
-        <Line />
-      </div>
       <ProjectInMind
         data={{
           heading: "Have any project in mind?",

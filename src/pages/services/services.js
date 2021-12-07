@@ -33,9 +33,9 @@ const Services = () => {
       <KeyFeatures />
 
       <NewTestimonial />
-      <HowToUse />
       <NewBlog />
       <AmazonFaqs />
+      <HowToUse />
       <OurClients />
       <ProjectInMind
         data={{
