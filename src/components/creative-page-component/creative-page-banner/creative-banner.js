@@ -16,7 +16,7 @@ const CreativeBanner = () => {
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 heading-coloumn">
             <h3>Pakistan’s #1 Rated Digital Marketing Agency.</h3>
             <h1 className="over-write">
-              Outsmart the competition with best-in-class creative strategies.
+              Outsmart the competition with best in class creative strategies.
             </h1>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12  form-coloumn">
