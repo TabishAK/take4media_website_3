@@ -224,6 +224,15 @@
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
+  .service-banner .headings .row .col-xl-6 .form {
+    background-color: #121212;
+    width: 26rem;
+    padding: 23px;
+    border-radius: 10px;
+    text-align: -webkit-center;
+    margin-top: 5rem;
+  }
+
   .creative-banner .headings .row .col-xl-6 .form {
     margin-top: 4rem !important;
   }
@@ -361,6 +370,50 @@
 }
 
 @media (max-width: 575px) {
+  // .creative-page .creative-portfolio .row-1 {
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-wrap: wrap;
+  // }
+
+  .service-banner .headings .row .form-coloumn {
+    text-align: -webkit-center !important;
+  }
+  .service-banner .headings .row .col-xl-6 .form hr {
+    width: 10rem !important;
+  }
+  .service-banner .headings .row .col-xl-6 .form form svg {
+    left: 55px !important;
+  }
+  .service-banner .headings .row .col-xl-6 .form {
+    margin-top: 5rem;
+    width: 19rem !important;
+    padding: 20px 0px !important;
+  }
+
+  .service-banner .headings .row .col-xl-6 .form form input {
+    width: 13rem !important;
+    height: 45px !important;
+    margin-top: 0rem !important;
+    margin-bottom: 18px !important;
+    font-size: 14px !important;
+  }
+
+  .service-banner .headings .row .col-xl-6 .over-write {
+    .service-banner .headings .row .col-xl-6 img {
+      margin-top: 2rem !important;
+      width: 100% !important;
+    }
+
+    font-size: 24px !important;
+    text-align: left !important;
+    line-height: 38px !important;
+  }
+
+  .service-banner .headings {
+    padding: 20px !important;
+  }
+
   .our-strategy .row .col-xl-6 .percentages {
     text-align: -webkit-center;
     margin-top: 2rem !important;
@@ -663,6 +716,28 @@
     font-size: 14px !important;
   }
 
+  .social-media-services h6 {
+    font-size: 14px !important;
+  }
+
+  .social-media-services h1 {
+    font-size: 25px !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .over-write {
+    .social-media-banner .headings .row .col-xl-6 img {
+      margin-top: 2rem !important;
+      width: 100% !important;
+    }
+
+    font-size: 24px !important;
+    text-align: left !important;
+    line-height: 38px !important;
+  }
+
+  .social-media-banner .headings {
+    padding: 20px !important;
+  }
   .ready-to-grow .contact-bar span {
     margin: 20px !important;
   }
@@ -694,29 +769,6 @@
 
   .service-card {
     padding: 20px 30px 20px 40px !important;
-  }
-
-  .social-media-services h6 {
-    font-size: 14px !important;
-  }
-
-  .social-media-services h1 {
-    font-size: 25px !important;
-  }
-
-  .social-media-banner .headings .row .col-xl-6 .over-write {
-    .social-media-banner .headings .row .col-xl-6 img {
-      margin-top: 2rem !important;
-      width: 100% !important;
-    }
-
-    font-size: 24px !important;
-    text-align: left !important;
-    line-height: 38px !important;
-  }
-
-  .social-media-banner .headings {
-    padding: 20px !important;
   }
 
   .how-to-use-box {

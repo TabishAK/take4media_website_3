@@ -43,7 +43,7 @@
 }
 
 .nav-item {
-  font-family: "Noah Grotesque Bold";
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   line-height: 40px;
   font-size: 16px;
@@ -51,9 +51,10 @@
 
 .nav-item:after {
   content: "";
+  position: relative;
   display: block;
-  height: 3px;
-  margin-top: -4px;
+  // height: 3px;
+  // top: -3px;
   width: 0;
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
@@ -89,16 +90,19 @@
     position: absolute;
     top: 80px;
     left: -110%;
+
     opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
-    background: #1f5156;
+    background: #121212;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+
+    padding-left: 0rem !important;
   }
   .nav-item .active {
     color: #66902f;

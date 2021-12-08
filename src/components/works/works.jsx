@@ -9,7 +9,7 @@ const Works = () => {
     <div className="works">
       <div className="container">
         <Heading heading="Works." subHeading="THINGS WE'VE MADE" />
-        <Button label="VIEW ALL" />
+        <Button label="VIEW ALL" style={{ top: 30, position: "relative" }} />
       </div>
       <Accordian />
       <br />

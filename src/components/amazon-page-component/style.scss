@@ -46,7 +46,7 @@
   background-color: #121212;
   .help-from-experts-box {
     .row {
-      padding: 75px;
+      padding: 0;
       background-color: #121212;
       margin-top: 10rem;
 
@@ -54,6 +54,7 @@
         h1 {
           color: white;
           font-size: 50px;
+          font-weight: 700;
         }
         h6 {
           color: #66902f;
@@ -89,6 +90,7 @@
         text-align: left;
         color: white;
         font-size: 50px;
+        font-weight: 700;
       }
 
       .col-xl-4 {

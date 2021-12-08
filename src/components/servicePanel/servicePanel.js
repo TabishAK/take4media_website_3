@@ -16,7 +16,7 @@ const ServicePanel = () => {
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <Link to="/creative-services">
               <ServiceCard
-                heading="Digital Strategy and Creativity"
+                heading="Creative Service"
                 icon={<BsBarChartLine />}
                 paragraph=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu
     luctus."

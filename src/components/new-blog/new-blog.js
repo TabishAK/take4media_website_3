@@ -4,6 +4,7 @@ import "./new-blog.scss";
 import img2 from "../../images/blog/1.PNG";
 import img3 from "../../images/blog/2.PNG";
 import Button from "./../common/button/button";
+import Line from "../common/line/line";
 
 const NewBlog = () => {
   return (

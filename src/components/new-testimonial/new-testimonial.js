@@ -1,6 +1,7 @@
 import Carousel from "react-elastic-carousel";
 import "./new-testimonial.scss";
 import quote from "../../images/icons/1.png";
+import Line from "../common/line/line";
 
 const NewTestimonial = () => {
   return (
@@ -67,6 +68,7 @@ const NewTestimonial = () => {
           </div>
         </Carousel>
       </div>
+      <Line top={-58} />
     </div>
   );
 };

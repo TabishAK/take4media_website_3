@@ -5,7 +5,7 @@ import Line from "../common/line/line";
 const ProjectInMind = (props) => {
   return (
     <div className="project-in-mind">
-      <Line />
+      <Line top={props.top ? props.top : ""} />
 
       {props.showSocialMedia ? (
         <span className="social-media-icons">
@@ -31,7 +31,7 @@ const ProjectInMind = (props) => {
       <center>
         <Button
           label={props.data.buttonLabel}
-          style={{ marginBottom: "12rem", marginTop: "3rem" }}
+          style={{ marginBottom: "12rem", marginTop: "2rem" }}
         />
       </center>
     </div>

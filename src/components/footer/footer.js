@@ -11,7 +11,6 @@ const Footer = () => {
           <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
             <img src={logo} alt="" />
             <p>We are more than a digital agency.</p>
-            <hr />
           </div>
           <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
             <div className="row">
