@@ -8,13 +8,17 @@ import creative_7 from "../../../images/creative-portfolio/22.jpg";
 import creative_8 from "../../../images/creative-portfolio/33.jpg";
 import creative_9 from "../../../images/creative-portfolio/44.jpg";
 import "./creative-portfolio.scss";
+import Heading from "./../../common/heading/heading";
 
 const CreativePortfolio = () => {
   return (
     <div className="creative-portfolio">
-      <h1>Our Portfolio</h1>
-      <h6>Lorem ipmsum lacasa de papel dummy text</h6>
-
+      <div className="container">
+        <Heading
+          heading="Our Portfolio"
+          subHeading="Lorem ipmsum lacasa de papel dummy text"
+        />
+      </div>
       <div className="row-1">
         <div
           className="content"

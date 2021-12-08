@@ -11,14 +11,15 @@ import {
 } from "react-icons/md";
 import { SiInfluxdb } from "react-icons/si";
 import Line from "./../../common/line/line";
+import Heading from "./../../common/heading/heading";
 const SocialMediaServices = () => {
   return (
     <div className="social-media-services">
-      <Line top={40} />
-      <h1>Our Services</h1>
-      <h6>We Provide the best service to our customers.</h6>
-
       <div className="container">
+        <Heading
+          heading="Our Services"
+          subHeading="We Provide the best service to our customers."
+        />
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
             <ServiceCard

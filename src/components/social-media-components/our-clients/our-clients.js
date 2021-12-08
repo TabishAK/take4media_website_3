@@ -6,14 +6,12 @@ import client5 from "../../../images/our-clients/5.png";
 import client6 from "../../../images/our-clients/6.png";
 import Line from "../../common/line/line";
 import "./our-clients.scss";
+import Heading from "./../../common/heading/heading";
 const OurClients = () => {
   return (
     <div className="our-clients">
-      <Line top={40} />
-      <h1>Our Clients</h1>
-      <h6>Trusted By</h6>
-
       <div className="container">
+        <Heading heading="Our Clients" subHeading="Trusted By" />
         <div className="row">
           <div className="col">
             <img src={client1} alt="" />

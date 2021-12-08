@@ -23,16 +23,13 @@ const CreativePage = () => {
       <CreativeBanner />
       <CreativeStrategies />
       <CreativeServices />
-
       <CreativePortfolio />
-
       <OurClient />
       <NewTestimonial />
       <CreativeBuisnessProcess />
       <CreativeFaqs />
       <NewBlog />
       <CreativeSupportingPartner />
-
       <GrowYourBuisness />
       <Footer />
     </div>

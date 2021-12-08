@@ -5,6 +5,7 @@ import Button from "../../common/button/button";
 import { FaUserCircle } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
+import Line from "../../common/line/line";
 
 const CreativeBanner = () => {
   return (

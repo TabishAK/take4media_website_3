@@ -3,13 +3,13 @@ import { AiFillCustomerService } from "react-icons/ai";
 import "./style.scss";
 import { GoVerified } from "react-icons/go";
 import Line from "../common/line/line";
+import Heading from "./../common/heading/heading";
 const KeyFeatures = () => {
   return (
     <div className="key-features">
-      <Line top={50} />
       <div className="container key-features-box">
         <div className="row">
-          <h1>Key Features</h1>
+          <Heading heading="Key Features" />
           <div className="col-xl-4 col-lg-4">
             <GoVerified />
 

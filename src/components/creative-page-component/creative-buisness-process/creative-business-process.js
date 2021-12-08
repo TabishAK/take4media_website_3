@@ -5,15 +5,17 @@ import { BsTextParagraph } from "react-icons/bs";
 import { FiMonitor } from "react-icons/fi";
 import Line from "./../../common/line/line";
 import PlusDetail from "./../plus-detail/plus-detail";
+import Heading from "./../../common/heading/heading";
 
 const CreativeBuisnessProcess = () => {
   return (
     <div className="creative-business-process">
-      <Line top={40} />
-      <h1>When are we right for you?</h1>
-      <h6>Simplifying your growth strategy</h6>
-
       <div className="container">
+        <Heading
+          heading="When are we right for you?"
+          subHeading="Simplifying your growth strategy"
+        />
+
         <div className="row">
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 process-1">
             <div className="processes">

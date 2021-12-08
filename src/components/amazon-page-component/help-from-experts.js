@@ -1,19 +1,18 @@
 import "./style.scss";
 import helpFromExpert from "../../images/services/help_from_experts.svg";
 import Line from "../common/line/line";
+import Heading from "./../common/heading/heading";
 const HelpFromExperts = () => {
   return (
     <div className="help-from-experts">
       <div className="container help-from-experts-box">
-        {" "}
-        <Line top={70} />
         <div className="row">
           <div className="col-xl-7 col-lg-6">
-            <h1>Get Help from Experts</h1>
-            <h6>
-              Need help with listing your products? Want to learn how to operate
-              Seller Central?
-            </h6>
+            <Heading
+              heading="Get Help from Experts"
+              subHeading="Need help with listing your products?"
+            />
+
             <p>
               Our network of qualified third party service providers will help
               you with everything you need to launch, manage and grow your

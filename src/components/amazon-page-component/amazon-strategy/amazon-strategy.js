@@ -2,17 +2,17 @@ import "./amazon-strategy.scss";
 import Line from "./../../../components/common/line/line";
 import creativeImage from "../../../images/creative-page/1.png";
 import creativeImage2 from "../../../images/creative-page/2.png";
+import Heading from "./../../common/heading/heading";
 
 const AmazonStrategies = () => {
   return (
     <div className="amazon-strategies">
-      <Line top={40} />
       <div className="container">
-        <h1 className="main-heading">Our Strategy</h1>
-        <h6 className="sub-heading">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu
-          luctus.
-        </h6>
+        <Heading
+          heading="Our Strategy"
+          subHeading="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id arcu
+          luctus."
+        />
 
         <div className="row middle-row">
           <div className="col-xl-6 col-lg-6 col-md-6 brain-storming-section">
