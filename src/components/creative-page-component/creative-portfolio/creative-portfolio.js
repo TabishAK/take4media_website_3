@@ -1,14 +1,17 @@
-import creative_1 from "../../../images/creative-portfolio/1.jpg";
-import creative_2 from "../../../images/creative-portfolio/2.jpg";
-import creative_3 from "../../../images/creative-portfolio/3.jpg";
-import creative_4 from "../../../images/creative-portfolio/4.jpg";
-import creative_5 from "../../../images/creative-portfolio/5.jpg";
-import creative_6 from "../../../images/creative-portfolio/11.jpg";
-import creative_7 from "../../../images/creative-portfolio/22.jpg";
-import creative_8 from "../../../images/creative-portfolio/33.jpg";
-import creative_9 from "../../../images/creative-portfolio/44.jpg";
 import "./creative-portfolio.scss";
 import Heading from "./../../common/heading/heading";
+import img1 from "../../../images/creative-portfolio/new/1.jpg";
+import img6 from "../../../images/creative-portfolio/new/6.jpg";
+import img7 from "../../../images/creative-portfolio/new/7.jpg";
+import img8 from "../../../images/creative-portfolio/new/8.jpg";
+import img9 from "../../../images/creative-portfolio/new/9.jpg";
+import img10 from "../../../images/creative-portfolio/new/10.jpg";
+import img11 from "../../../images/creative-portfolio/new/11.jpg";
+import img12 from "../../../images/creative-portfolio/new/12.jpg";
+import img13 from "../../../images/creative-portfolio/new/13.jpg";
+
+// import img_279x417 from "../../../images/creative-portfolio/Tabish/279x417.jpg";
+// import img_326x402 from "../../../images/creative-portfolio/Tabish/326x402.jpg";
 
 const CreativePortfolio = () => {
   return (
@@ -27,7 +30,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_1} />
+          <img className="content-image" src={img6} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -40,7 +43,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_2} />
+          <img className="content-image" src={img1} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -53,7 +56,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_3} />
+          <img className="content-image" src={img7} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -66,7 +69,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_5} />
+          <img className="content-image" src={img8} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -79,7 +82,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_4} />
+          <img className="content-image" src={img9} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -95,7 +98,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_6} />
+          <img className="content-image" src={img10} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -108,7 +111,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_7} />
+          <img className="content-image" src={img11} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -121,7 +124,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_8} />
+          <img className="content-image" src={img12} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
@@ -134,7 +137,7 @@ const CreativePortfolio = () => {
           }}
         >
           <div class="content-overlay"></div>
-          <img className="content-image" src={creative_9} />
+          <img className="content-image" src={img13} />
           <div class="content-details fadeIn-bottom">
             <h3 class="content-title">This is a title</h3>
             <p class="content-text">This is a short description</p>
