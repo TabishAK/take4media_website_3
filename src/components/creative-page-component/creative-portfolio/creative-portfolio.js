@@ -10,9 +10,6 @@ import img11 from "../../../images/creative-portfolio/new/11.jpg";
 import img12 from "../../../images/creative-portfolio/new/12.jpg";
 import img13 from "../../../images/creative-portfolio/new/13.jpg";
 
-// import img_279x417 from "../../../images/creative-portfolio/Tabish/279x417.jpg";
-// import img_326x402 from "../../../images/creative-portfolio/Tabish/326x402.jpg";
-
 const CreativePortfolio = () => {
   return (
     <div className="creative-portfolio">

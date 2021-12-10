@@ -1,5 +1,6 @@
 import Heading from "../common/heading/heading";
 import "./about.scss";
+import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <div className="about">
@@ -10,22 +11,27 @@ const About = () => {
         />
 
         <div className="row r1">
-          <div className="col-xl-6 col-md-6">
-            <div className="bg-1">
-              <h2>Team Work</h2>
-              <p>Committed and creative</p>
+          <Fade duration={2000} delay={300} big>
+            <div className="col-xl-6 col-md-6">
+              <div className="bg-1">
+                <h2>Team Work</h2>
+                <p>Committed and creative</p>
+              </div>
             </div>
-          </div>
-          <div className="col-xl-6 col-md-6">
-            <div className="bg-2">
-              <h2>Philosophy</h2>
-              <p>Trust pays off</p>
+          </Fade>
+          <Fade duration={2000} delay={400} big>
+            <div className="col-xl-6 col-md-6">
+              <div className="bg-2">
+                <h2>Philosophy</h2>
+                <p>Trust pays off</p>
+              </div>
+
+              <div className="bg-3">
+                <h2>Office</h2>
+                <p>Somewhere on earth</p>
+              </div>
             </div>
-            <div className="bg-3">
-              <h2>Office</h2>
-              <p>Somewhere on earth</p>
-            </div>
-          </div>
+          </Fade>
         </div>
 
         <div className="row r2">

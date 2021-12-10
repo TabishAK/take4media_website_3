@@ -6,6 +6,7 @@ import { FiMonitor } from "react-icons/fi";
 import Line from "./../../common/line/line";
 import PlusDetail from "./../plus-detail/plus-detail";
 import Heading from "./../../common/heading/heading";
+import Fade from "react-reveal/Fade";
 
 const CreativeBuisnessProcess = () => {
   return (
@@ -18,44 +19,53 @@ const CreativeBuisnessProcess = () => {
 
         <div className="row">
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 process-1">
-            <div className="processes">
-              <MdAnimation />
-              <h4>Grow</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
-              </p>
-            </div>
+            <Fade duration={2000} delay={200} big>
+              <div className="processes">
+                <MdAnimation />
+                <h4>Grow</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry.
+                </p>
+              </div>{" "}
+            </Fade>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 process-2">
-            <div className="processes">
-              <GiBrain />
-              <h4>Monetize</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
-              </p>
-            </div>
+            <Fade duration={2000} delay={300} big>
+              <div className="processes">
+                <GiBrain />
+                <h4>Monetize</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry.
+                </p>
+              </div>
+            </Fade>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 process-3">
-            <div className="processes">
-              <BsTextParagraph />
-              <h4>Engage</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
-              </p>
-            </div>
+            <Fade duration={2000} delay={400} big>
+              <div className="processes">
+                <BsTextParagraph />
+                <h4>Engage</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry.
+                </p>
+              </div>
+            </Fade>
           </div>
+
           <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 process-4">
-            <div className="processes">
-              <FiMonitor />
-              <h4>Influence</h4>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
-              </p>
-            </div>
+            <Fade duration={2000} delay={500} big>
+              <div className="processes">
+                <FiMonitor />
+                <h4>Influence</h4>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry.
+                </p>
+              </div>
+            </Fade>
           </div>
         </div>
       </div>

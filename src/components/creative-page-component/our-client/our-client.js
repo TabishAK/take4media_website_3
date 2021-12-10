@@ -7,6 +7,7 @@ import client6 from "../../../images/our-clients/6.png";
 import Line from "../../common/line/line";
 import "./our-client.scss";
 import Heading from "./../../common/heading/heading";
+import Slide from "react-reveal/Slide";
 const OurClients = () => {
   return (
     <div className="our-clients-creative">
@@ -14,24 +15,36 @@ const OurClients = () => {
         <Heading heading="Our Clients" subHeading="Trusted By" />
 
         <div className="row">
-          <div className="col">
-            <img src={client1} alt="" />
-          </div>
-          <div className="col">
-            <img src={client2} alt="" />
-          </div>
-          <div className="col">
-            <img src={client3} alt="" />
-          </div>
-          <div className="col">
-            <img src={client4} alt="" />
-          </div>
-          <div className="col">
-            <img src={client5} alt="" />
-          </div>
-          <div className="col">
-            <img src={client6} alt="" />
-          </div>
+          <Slide bottom>
+            <div className="col">
+              <img src={client1} alt="" />
+            </div>
+          </Slide>
+          <Slide bottom>
+            <div className="col">
+              <img src={client2} alt="" />
+            </div>
+          </Slide>
+          <Slide bottom>
+            <div className="col">
+              <img src={client3} alt="" />
+            </div>
+          </Slide>
+          <Slide bottom>
+            <div className="col">
+              <img src={client4} alt="" />
+            </div>
+          </Slide>
+          <Slide bottom>
+            <div className="col">
+              <img src={client5} alt="" />
+            </div>
+          </Slide>
+          <Slide bottom>
+            <div className="col">
+              <img src={client6} alt="" />
+            </div>
+          </Slide>
         </div>
       </div>
     </div>

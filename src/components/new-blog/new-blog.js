@@ -4,7 +4,7 @@ import "./new-blog.scss";
 import img2 from "../../images/blog/1.PNG";
 import img3 from "../../images/blog/2.PNG";
 import Button from "./../common/button/button";
-import Line from "../common/line/line";
+import Fade from "react-reveal/Fade";
 
 const NewBlog = () => {
   return (
@@ -15,22 +15,26 @@ const NewBlog = () => {
           subHeading="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
         />
         <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div className="section-1">
-              <img src={img1} alt="" />
-              <p>The standard chunk of lorem ipsum since the 1500's</p>
+          <Fade duration={2000} delay={300} big>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="section-1">
+                <img src={img1} alt="" />
+                <p>The standard chunk of lorem ipsum since the 1500's</p>
+              </div>
             </div>
-          </div>
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div className="section-2">
-              <img src={img2} alt="" />
-              <p>The standard chunk of lorem ipsum since the 1500's</p>
+          </Fade>
+          <Fade duration={2000} delay={400} big>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div className="section-2">
+                <img src={img2} alt="" />
+                <p>The standard chunk of lorem ipsum since the 1500's</p>
+              </div>
+              <div className="section-3">
+                <img src={img3} alt="" />
+                <p>The standard chunk of lorem ipsum since the 1500's</p>
+              </div>
             </div>
-            <div className="section-3">
-              <img src={img3} alt="" />
-              <p>The standard chunk of lorem ipsum since the 1500's</p>
-            </div>
-          </div>
+          </Fade>
         </div>
         <center>
           <Button
