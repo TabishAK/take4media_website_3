@@ -14,9 +14,9 @@ import { useEffect } from "react";
 import "./creativePage.scss";
 
 const CreativePage = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div className="creative-page">

@@ -3,6 +3,7 @@ import { BsTelephone, BsCalendarCheck } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import logo from "../../images/logo/t4m_logo.png";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
@@ -35,23 +36,44 @@ const Footer = () => {
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 our-services">
                 <h3>OUR SERVICES</h3>
+
                 <span>
-                  <h6>Single Project</h6>
+                  <Link
+                    to={{
+                      pathname: "/amazon-services",
+                    }}
+                    target="_blank"
+                  >
+                    <h6> Amazon Service</h6>
+                  </Link>
                 </span>
                 <span>
-                  <h6> Service 1</h6>
+                  <Link
+                    to={{
+                      pathname: "/creative-services",
+                    }}
+                    target="_blank"
+                  >
+                    <h6> Creative Service</h6>
+                  </Link>
                 </span>
                 <span>
-                  <h6> Service 2</h6>
-                </span>
-                <span>
-                  <h6> Service 3</h6>
+                  <Link
+                    to={{
+                      pathname: "/social-media-services",
+                    }}
+                    target="_blank"
+                  >
+                    <h6> Social Media Service</h6>
+                  </Link>
                 </span>
               </div>
               <div className="col-xl-4 col-lg-4 col-sm-12 col-md-4 col-xs-12 right">
                 <h3>ABOUT US</h3>
                 <span>
-                  <h6>About Us</h6>
+                  <Link to="">
+                    <h6>About Us</h6>
+                  </Link>
                 </span>
                 <span>
                   <h6> Blog</h6>

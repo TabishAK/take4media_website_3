@@ -72,3 +72,6 @@ a {
 .rec-dot {
   box-shadow: 0 0 1px 2px rgb(255, 255, 255 / 0.5) !important;
 }
+html {
+  scroll-behavior: smooth !important;
+}

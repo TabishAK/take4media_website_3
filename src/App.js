@@ -9,10 +9,12 @@ import { Route, Routes } from "react-router-dom";
 import CreativePage from "./pages/creativePage/creative-page";
 import Blog from "./pages/Blogs/blog";
 import AboutUs from "./pages/about-us/about-us";
+import ScrollToTop from "./components/common/scrollToTop";
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Route exact path="/" component={Home} />
       <Route path="/amazon-services" component={Services} />
       <Route path="/social-media-services" component={SocialMedia} />

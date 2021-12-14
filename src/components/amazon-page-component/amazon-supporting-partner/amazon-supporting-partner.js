@@ -4,7 +4,7 @@ import fb from "../../../images/logo/partners-logo/fb.png";
 import google from "../../../images/logo/partners-logo/google.png";
 import trust from "../../../images/logo/partners-logo/trust.png";
 import clutch from "../../../images/logo/partners-logo/clutch.png";
-import Line from "./../../../components/common/line/line";
+import Slide from "react-reveal/Slide";
 
 const AmazonSupportingPartner = () => {
   return (
@@ -13,36 +13,56 @@ const AmazonSupportingPartner = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <img src={amazon} alt="" />
+            <Slide bottom>
+              <img src={amazon} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={fb} alt="" />
+            <Slide bottom>
+              <img src={fb} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={google} alt="" />
+            <Slide bottom>
+              <img src={google} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={trust} alt="" />
+            <Slide bottom>
+              <img src={trust} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={clutch} alt="" />
+            <Slide bottom>
+              <img src={clutch} alt="" />
+            </Slide>
           </div>
         </div>
         <div className="row" style={{ marginBottom: "5rem" }}>
           <div className="col">
-            <img src={google} alt="" />
+            <Slide bottom>
+              <img src={google} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={clutch} alt="" />
+            <Slide bottom>
+              <img src={clutch} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={trust} alt="" />
+            <Slide bottom>
+              <img src={trust} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={amazon} alt="" />
+            <Slide bottom>
+              <img src={amazon} alt="" />
+            </Slide>
           </div>
           <div className="col">
-            <img src={fb} alt="" />
+            <Slide bottom>
+              <img src={fb} alt="" />
+            </Slide>
           </div>
         </div>
       </div>

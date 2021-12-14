@@ -2,6 +2,7 @@ import "./style.scss";
 import helpFromExpert from "../../images/services/help_from_experts.svg";
 import Line from "../common/line/line";
 import Heading from "./../common/heading/heading";
+import Fade from "react-reveal/Fade";
 const HelpFromExperts = () => {
   return (
     <div className="help-from-experts">
@@ -12,17 +13,20 @@ const HelpFromExperts = () => {
               heading="Get Help from Experts"
               subHeading="Need help with listing your products?"
             />
-
-            <p>
-              Our network of qualified third party service providers will help
-              you with everything you need to launch, manage and grow your
-              business on Amazon. From shooting great images for your products
-              to improving your chances of increasing sales on Amazon, our
-              service providers help you with every step of selling online.
-            </p>
+            <Fade duration={2000} delay={300} big>
+              <p>
+                Our network of qualified third party service providers will help
+                you with everything you need to launch, manage and grow your
+                business on Amazon. From shooting great images for your products
+                to improving your chances of increasing sales on Amazon, our
+                service providers help you with every step of selling online.
+              </p>
+            </Fade>
           </div>
           <div className="col-xl-5 col-lg-6">
-            <img src={helpFromExpert} alt="" />
+            <Fade duration={2000} delay={300} big>
+              <img src={helpFromExpert} alt="" />
+            </Fade>
           </div>
         </div>
       </div>

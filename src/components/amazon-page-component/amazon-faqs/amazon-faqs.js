@@ -5,6 +5,7 @@ import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 import { Collapse } from "react-collapse";
 import getHelp from "../../../images/services/help_from_experts.svg";
 import { useState } from "react";
+import Fade from "react-reveal/Fade";
 
 const AmazonFaqs = () => {
   const [comment, setComment] = useState([
@@ -45,32 +46,33 @@ const AmazonFaqs = () => {
           heading="FAQ's"
           subHeading="Check out some of the question people asked."
         />
+        <Fade duration={2000} delay={300} big>
+          <div className="row">
+            <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 ">
+              {comment.map((c) => (
+                <div className="comment">
+                  <div className="number">{c.number}</div>
+                  <div className="text">
+                    <span className="question">Hows Work This antivirus?</span>
 
-        <div className="row">
-          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 ">
-            {comment.map((c) => (
-              <div className="comment">
-                <div className="number">{c.number}</div>
-                <div className="text">
-                  <span className="question">Hows Work This antivirus?</span>
+                    <Collapse isOpened={c.isOpened}>
+                      <span className="answer">{c.comment}</span>
+                    </Collapse>
+                  </div>
 
-                  <Collapse isOpened={c.isOpened}>
-                    <span className="answer">{c.comment}</span>
-                  </Collapse>
+                  {c.isOpened ? (
+                    <AiFillCaretUp onClick={() => handleCollapse(c)} />
+                  ) : (
+                    <AiFillCaretDown onClick={() => handleCollapse(c)} />
+                  )}
                 </div>
-
-                {c.isOpened ? (
-                  <AiFillCaretUp onClick={() => handleCollapse(c)} />
-                ) : (
-                  <AiFillCaretDown onClick={() => handleCollapse(c)} />
-                )}
-              </div>
-            ))}
+              ))}
+            </div>
+            <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 pic-side">
+              <img className="img-side-faq" src={getHelp} alt="" />
+            </div>
           </div>
-          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 pic-side">
-            <img className="img-side-faq" src={getHelp} alt="" />
-          </div>
-        </div>
+        </Fade>
       </div>
     </div>
   );

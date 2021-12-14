@@ -18,9 +18,9 @@ import OurClients from "./../../components/social-media-components/our-clients/o
 import NewTestimonial from "./../../components/new-testimonial/new-testimonial";
 
 const Services = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div className="service-page-1">

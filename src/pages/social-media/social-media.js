@@ -13,9 +13,9 @@ import NewTestimonial from "./../../components/new-testimonial/new-testimonial";
 import NewBlog from "./../../components/new-blog/new-blog";
 import SocialMediaFaqs from "./../../components/social-media-components/social-media-faqs/social-media-faqs";
 const SocialMedia = (props) => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div className="social-media">
