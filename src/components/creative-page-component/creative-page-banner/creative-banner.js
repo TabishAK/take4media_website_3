@@ -1,13 +1,11 @@
-import "./creative-banner.scss";
-import Navbar from "../../navbar/navbar";
-import allLogos from "../../../images/logo/logos.png";
+import { BsTelephoneFill } from "react-icons/bs";
 import Button from "../../common/button/button";
 import { FaUserCircle } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { BsTelephoneFill } from "react-icons/bs";
-import Line from "../../common/line/line";
+import Navbar from "../../navbar/navbar";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
+import "./creative-banner.scss";
 
 const CreativeBanner = () => {
   return (

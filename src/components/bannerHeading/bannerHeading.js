@@ -1,6 +1,7 @@
-import "./bannerHeading.scss";
 import Button from "../common/button/button";
 import Slide from "react-reveal/Slide";
+import "./bannerHeading.scss";
+
 const BannerHeading = () => {
   return (
     <div className="container con">

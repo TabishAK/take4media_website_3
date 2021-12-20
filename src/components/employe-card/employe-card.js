@@ -1,6 +1,5 @@
-import "./employe-card.scss";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { propTypes } from "react-bootstrap/esm/Image";
+import "./employe-card.scss";
 
 const EmployeCard = (props) => {
   return (

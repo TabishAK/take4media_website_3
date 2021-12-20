@@ -1,7 +1,7 @@
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import "./carousel.scss";
 import TestimonialCard from "../cards/testimonialCard/testimonialCard";
+import "react-multi-carousel/lib/styles.css";
+import Carousel from "react-multi-carousel";
+import "./carousel.scss";
 
 const Simple = ({ deviceType }) => {
   const responsive = {

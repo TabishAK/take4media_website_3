@@ -1,5 +1,6 @@
-import "./heading.scss";
 import Slide from "react-reveal/Slide";
+import "./heading.scss";
+
 const Heading = ({ heading, subHeading }) => {
   return (
     <div>

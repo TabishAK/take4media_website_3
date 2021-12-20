@@ -1,7 +1,8 @@
-import "./grow-your-buisness.scss";
 import { BsFillChatLeftTextFill } from "react-icons/bs";
 import { FiPhone } from "react-icons/fi";
 import Slide from "react-reveal/Slide";
+import "./grow-your-buisness.scss";
+
 const GrowYourBuisness = () => {
   return (
     <div className="grow-your-buisness">

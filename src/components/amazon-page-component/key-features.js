@@ -1,10 +1,10 @@
-import { GiWorld } from "react-icons/gi";
 import { AiFillCustomerService } from "react-icons/ai";
-import "./style.scss";
-import { GoVerified } from "react-icons/go";
-import Line from "../common/line/line";
 import Heading from "./../common/heading/heading";
+import { GoVerified } from "react-icons/go";
+import { GiWorld } from "react-icons/gi";
+import Line from "../common/line/line";
 import Fade from "react-reveal/Fade";
+import "./style.scss";
 const KeyFeatures = () => {
   return (
     <div className="key-features">

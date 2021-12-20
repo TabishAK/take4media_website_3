@@ -1,11 +1,12 @@
-import "./meet-our-team.scss";
+import EmployeCard from "../employe-card/employe-card";
 import img1 from "../../images/about/emp-1.jpg";
 import img2 from "../../images/about/emp-2.jpg";
 import img3 from "../../images/about/emp-3.jpg";
 import img4 from "../../images/about/emp-4.jpg";
 import img5 from "../../images/about/emp-5.jpg";
-import EmployeCard from "../employe-card/employe-card";
 import Line from "./../common/line/line";
+import "./meet-our-team.scss";
+
 const MeetOurTeam = () => {
   return (
     <div class="meet-our-team">

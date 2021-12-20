@@ -1,7 +1,8 @@
-import "./style.scss";
 import Line from "../../components/common/line/line";
 import hero from "../../images/services/hero.png";
 import Fade from "react-reveal/Fade";
+import "./style.scss";
+
 const HowToUse = () => {
   return (
     <div className="how-to-use">

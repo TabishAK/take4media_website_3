@@ -1,11 +1,12 @@
-import "./creative-supporting-partner.scss";
 import amazon from "../../../images/logo/partners-logo/amazon.png";
-import fb from "../../../images/logo/partners-logo/fb.png";
 import google from "../../../images/logo/partners-logo/google.png";
-import trust from "../../../images/logo/partners-logo/trust.png";
 import clutch from "../../../images/logo/partners-logo/clutch.png";
+import trust from "../../../images/logo/partners-logo/trust.png";
+import fb from "../../../images/logo/partners-logo/fb.png";
 import Line from "./../../../components/common/line/line";
+import "./creative-supporting-partner.scss";
 import Slide from "react-reveal/Slide";
+
 const CreativeSupportingPartner = () => {
   return (
     <div className="creative-supporting-partner-section">

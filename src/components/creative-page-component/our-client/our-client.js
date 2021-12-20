@@ -4,10 +4,10 @@ import client3 from "../../../images/our-clients/3.png";
 import client4 from "../../../images/our-clients/4.png";
 import client5 from "../../../images/our-clients/5.png";
 import client6 from "../../../images/our-clients/6.png";
-import Line from "../../common/line/line";
-import "./our-client.scss";
 import Heading from "./../../common/heading/heading";
 import Slide from "react-reveal/Slide";
+import "./our-client.scss";
+
 const OurClients = () => {
   return (
     <div className="our-clients-creative">

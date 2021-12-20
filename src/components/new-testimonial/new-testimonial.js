@@ -1,8 +1,8 @@
 import Carousel from "react-elastic-carousel";
-import "./new-testimonial.scss";
 import quote from "../../images/icons/1.png";
 import Line from "../common/line/line";
 import Fade from "react-reveal/Fade";
+import "./new-testimonial.scss";
 
 const NewTestimonial = () => {
   return (

@@ -1,9 +1,9 @@
-import "./blog-section.scss";
-
 import Button from "./../../../components/common/button/button";
 import news1 from "../../../images/news/1.jpg";
 import news2 from "../../../images/news/2.jpg";
 import news3 from "../../../images/news/3.jpg";
+import "./blog-section.scss";
+
 const BlogSection = () => {
   return (
     <div className="blog-section">

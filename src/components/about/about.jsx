@@ -1,6 +1,7 @@
 import Heading from "../common/heading/heading";
-import "./about.scss";
 import Fade from "react-reveal/Fade";
+import "./about.scss";
+
 const About = () => {
   return (
     <div className="about">

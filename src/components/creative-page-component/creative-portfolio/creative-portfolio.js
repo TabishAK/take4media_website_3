@@ -1,14 +1,14 @@
-import "./creative-portfolio.scss";
-import Heading from "./../../common/heading/heading";
+import img10 from "../../../images/creative-portfolio/new/10.jpg";
+import img11 from "../../../images/creative-portfolio/new/11.jpg";
+import img12 from "../../../images/creative-portfolio/new/12.jpg";
+import img13 from "../../../images/creative-portfolio/new/13.jpg";
 import img1 from "../../../images/creative-portfolio/new/1.jpg";
 import img6 from "../../../images/creative-portfolio/new/6.jpg";
 import img7 from "../../../images/creative-portfolio/new/7.jpg";
 import img8 from "../../../images/creative-portfolio/new/8.jpg";
 import img9 from "../../../images/creative-portfolio/new/9.jpg";
-import img10 from "../../../images/creative-portfolio/new/10.jpg";
-import img11 from "../../../images/creative-portfolio/new/11.jpg";
-import img12 from "../../../images/creative-portfolio/new/12.jpg";
-import img13 from "../../../images/creative-portfolio/new/13.jpg";
+import Heading from "./../../common/heading/heading";
+import "./creative-portfolio.scss";
 
 const CreativePortfolio = () => {
   return (

@@ -1,8 +1,8 @@
-import "./style.scss";
 import helpFromExpert from "../../images/services/help_from_experts.svg";
-import Line from "../common/line/line";
 import Heading from "./../common/heading/heading";
 import Fade from "react-reveal/Fade";
+import "./style.scss";
+
 const HelpFromExperts = () => {
   return (
     <div className="help-from-experts">

@@ -1,8 +1,8 @@
-import "./amazon-strategy.scss";
-import creativeImage from "../../../images/creative-page/1.png";
 import creativeImage2 from "../../../images/creative-page/2.png";
+import creativeImage from "../../../images/creative-page/1.png";
 import Heading from "./../../common/heading/heading";
 import Fade from "react-reveal/Fade";
+import "./amazon-strategy.scss";
 
 const AmazonStrategies = () => {
   return (

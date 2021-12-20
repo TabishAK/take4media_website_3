@@ -1,12 +1,12 @@
-import "./serviceBanner.scss";
-import allLogos from "../../images/logo/logos.png";
-import { FaUserCircle } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import { BsTelephoneFill } from "react-icons/bs";
-import Navbar from "../navbar/navbar";
+import { FaUserCircle } from "react-icons/fa";
 import Button from "../common/button/button";
-import Fade from "react-reveal/Fade";
+import { MdEmail } from "react-icons/md";
 import Slide from "react-reveal/Slide";
+import Navbar from "../navbar/navbar";
+import Fade from "react-reveal/Fade";
+import "./serviceBanner.scss";
+
 const ServiceBanner = () => {
   return (
     <div className="service-banner">

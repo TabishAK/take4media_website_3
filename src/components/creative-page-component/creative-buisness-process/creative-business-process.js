@@ -1,11 +1,9 @@
-import "./creative-business-process.scss";
-import { MdAnimation } from "react-icons/md";
-import { GiBrain } from "react-icons/gi";
-import { BsTextParagraph } from "react-icons/bs";
-import { FiMonitor } from "react-icons/fi";
-import Line from "./../../common/line/line";
-import PlusDetail from "./../plus-detail/plus-detail";
 import Heading from "./../../common/heading/heading";
+import { BsTextParagraph } from "react-icons/bs";
+import { MdAnimation } from "react-icons/md";
+import { FiMonitor } from "react-icons/fi";
+import "./creative-business-process.scss";
+import { GiBrain } from "react-icons/gi";
 import Fade from "react-reveal/Fade";
 
 const CreativeBuisnessProcess = () => {

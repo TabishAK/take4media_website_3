@@ -1,5 +1,5 @@
-import "./accordian.scss";
 import Fade from "react-reveal/Fade";
+import "./accordian.scss";
 
 const Accordian = () => {
   return (

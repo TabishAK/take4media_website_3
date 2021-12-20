@@ -1,9 +1,8 @@
 import Heading from "../../components/common/heading/heading";
+import Button from "../../components/common/button/button";
 import news1 from "../../images/news/1.jpg";
 import news2 from "../../images/news/2.jpg";
 import news3 from "../../images/news/3.jpg";
-import Button from "../../components/common/button/button";
-import Line from "../common/line/line";
 import "./news.scss";
 const News = () => {
   return (

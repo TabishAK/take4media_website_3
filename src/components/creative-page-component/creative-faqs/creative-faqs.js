@@ -1,11 +1,10 @@
-import "./creative-faqs.scss";
-
+import getHelp from "../../../images/services/help_from_experts.svg";
 import Heading from "./../../../components/common/heading/heading";
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 import { Collapse } from "react-collapse";
-import getHelp from "../../../images/services/help_from_experts.svg";
-import { useState } from "react";
 import Fade from "react-reveal/Fade";
+import { useState } from "react";
+import "./creative-faqs.scss";
 
 const CreativeFaqs = () => {
   const [comment, setComment] = useState([

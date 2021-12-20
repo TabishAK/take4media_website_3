@@ -1,9 +1,9 @@
-import "./amazon-supporting-partner.scss";
+import clutch from "../../../images/logo/partners-logo/clutch.png";
 import amazon from "../../../images/logo/partners-logo/amazon.png";
-import fb from "../../../images/logo/partners-logo/fb.png";
 import google from "../../../images/logo/partners-logo/google.png";
 import trust from "../../../images/logo/partners-logo/trust.png";
-import clutch from "../../../images/logo/partners-logo/clutch.png";
+import fb from "../../../images/logo/partners-logo/fb.png";
+import "./amazon-supporting-partner.scss";
 import Slide from "react-reveal/Slide";
 
 const AmazonSupportingPartner = () => {

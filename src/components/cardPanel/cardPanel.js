@@ -1,7 +1,7 @@
-import { IoMdPaperPlane } from "react-icons/io";
-import { GiBrain } from "react-icons/gi";
-import { GoLightBulb } from "react-icons/go";
 import BannerCard from "../cards/bannerCard/bannerCard";
+import { IoMdPaperPlane } from "react-icons/io";
+import { GoLightBulb } from "react-icons/go";
+import { GiBrain } from "react-icons/gi";
 import "./cardPanel.scss";
 
 const CardPanel = () => {

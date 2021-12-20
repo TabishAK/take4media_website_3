@@ -1,10 +1,10 @@
 import img1 from "../../images/blog/Capture.PNG";
 import Heading from "../common/heading/heading";
-import "./new-blog.scss";
+import Button from "./../common/button/button";
 import img2 from "../../images/blog/1.PNG";
 import img3 from "../../images/blog/2.PNG";
-import Button from "./../common/button/button";
 import Fade from "react-reveal/Fade";
+import "./new-blog.scss";
 
 const NewBlog = () => {
   return (

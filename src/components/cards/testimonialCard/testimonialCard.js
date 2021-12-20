@@ -1,7 +1,8 @@
-import { AiFillStar } from "react-icons/ai";
-import suhab from "../../../images/icons/asd.jpg";
 import quoteIcon from "../../../images/icons/1.png";
+import suhab from "../../../images/icons/asd.jpg";
+import { AiFillStar } from "react-icons/ai";
 import "./testimonialCard.scss";
+
 const TestimonialCard = () => {
   return (
     <div className="testimonial-card">

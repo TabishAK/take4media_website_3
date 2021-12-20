@@ -1,15 +1,8 @@
-import "./creative-strategies.scss";
-import { CircleProgress } from "react-gradient-progress";
-import card1 from "../../../images/partners-logo/1.png";
-import card2 from "../../../images/partners-logo/2.png";
-import card3 from "../../../images/partners-logo/3.png";
-import pc from "../../../images/services/pc.png";
-import Line from "./../../../components/common/line/line";
-import mob from "../../../images/services/mob.png";
-import creativeImage from "../../../images/creative-page/1.png";
 import creativeImage2 from "../../../images/creative-page/2.png";
+import creativeImage from "../../../images/creative-page/1.png";
 import Heading from "./../../common/heading/heading";
 import Fade from "react-reveal/Fade";
+import "./creative-strategies.scss";
 
 const CreativeStrategies = () => {
   return (

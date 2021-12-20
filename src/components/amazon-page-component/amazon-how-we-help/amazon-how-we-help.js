@@ -1,10 +1,10 @@
-import "./amazon-how-we-help.scss";
 import BannerCard from "./../../../components/cards/bannerCard/bannerCard";
-import { GiStumpRegrowth } from "react-icons/gi";
-import { FaEye, FaHandshake } from "react-icons/fa";
-import { SiInfluxdb } from "react-icons/si";
 import Heading from "./../../common/heading/heading";
+import { FaEye, FaHandshake } from "react-icons/fa";
+import { GiStumpRegrowth } from "react-icons/gi";
+import { SiInfluxdb } from "react-icons/si";
 import Fade from "react-reveal/Fade";
+import "./amazon-how-we-help.scss";
 
 const AmazonHowWeHelp = () => {
   return (

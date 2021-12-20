@@ -1,11 +1,11 @@
-import "./amazon-services.scss";
 import ServiceCard from "./../../cards/serviceCard/serviceCard";
-import { GiArchiveResearch } from "react-icons/gi";
-import { SiMarketo } from "react-icons/si";
-import { HiDocumentSearch } from "react-icons/hi";
 import { FaAdversal, FaConnectdevelop } from "react-icons/fa";
+import { GiArchiveResearch } from "react-icons/gi";
+import { HiDocumentSearch } from "react-icons/hi";
 import Heading from "../../common/heading/heading";
+import { SiMarketo } from "react-icons/si";
 import Fade from "react-reveal/Fade";
+import "./amazon-services.scss";
 
 const AmazonServices = () => {
   return (

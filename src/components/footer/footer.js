@@ -1,9 +1,10 @@
-import "./footer.scss";
 import { BsTelephone, BsCalendarCheck } from "react-icons/bs";
+import logo from "../../images/logo/t4m_logo.png";
 import { AiOutlineMail } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import logo from "../../images/logo/t4m_logo.png";
 import { Link } from "react-router-dom";
+import "./footer.scss";
+
 const Footer = () => {
   return (
     <div className="footer">
