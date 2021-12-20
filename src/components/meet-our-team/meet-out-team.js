@@ -6,6 +6,7 @@ import img4 from "../../images/about/emp-4.jpg";
 import img5 from "../../images/about/emp-5.jpg";
 import Line from "./../common/line/line";
 import "./meet-our-team.scss";
+import Fade from "react-reveal/Fade";
 
 const MeetOurTeam = () => {
   return (
@@ -17,64 +18,75 @@ const MeetOurTeam = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in
             animi doloribus
           </h6>
+
           <div class="col">
-            <EmployeCard
-              img={img1}
-              data={{
-                name: "Suhab-ur-Rehman",
-                designation: "Art Actor",
-                description:
-                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
-              }}
-            />
+            <Fade duration={1500} big>
+              <EmployeCard
+                img={img1}
+                data={{
+                  name: "Suhab-ur-Rehman",
+                  designation: "Art Actor",
+                  description:
+                    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
+                }}
+              />
+            </Fade>
           </div>
 
           <div class="col">
-            <EmployeCard
-              img={img2}
-              data={{
-                name: "Hareem Fatima",
-                designation: "Product Analyst",
-                description:
-                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
-              }}
-            />
+            <Fade duration={1500} delay={300} big>
+              <EmployeCard
+                img={img2}
+                data={{
+                  name: "Hareem Fatima",
+                  designation: "Product Analyst",
+                  description:
+                    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
+                }}
+              />
+            </Fade>
           </div>
 
           <div class="col">
-            <EmployeCard
-              img={img3}
-              data={{
-                name: "Irtiqa Abbas",
-                designation: "Adobe Expert",
-                description:
-                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
-              }}
-            />
+            <Fade duration={1500} delay={400} big>
+              <EmployeCard
+                img={img3}
+                data={{
+                  name: "Irtiqa Abbas",
+                  designation: "Adobe Expert",
+                  description:
+                    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
+                }}
+              />
+            </Fade>
           </div>
 
           <div class="col">
-            <EmployeCard
-              img={img4}
-              data={{
-                name: "Tabish Ali Khan",
-                designation: "Web Developer Associate",
-                description:
-                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
-              }}
-            />
+            <Fade duration={1500} delay={500} big>
+              <EmployeCard
+                img={img4}
+                data={{
+                  name: "Tabish Ali Khan",
+                  designation: "Web Developer Associate",
+                  description:
+                    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
+                }}
+              />
+            </Fade>
           </div>
 
           <div class="col">
-            <EmployeCard
-              img={img5}
-              data={{
-                name: "Farooq Shaukat",
-                designation: "Assistant Art",
-                description:
-                  " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
-              }}
-            />
+            <Fade duration={1500} delay={600} big>
+              <EmployeCard
+                img={img5}
+                data={{
+                  name: "Farooq Shaukat",
+                  designation: "Assistant Art",
+                  description:
+                    " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, in animi doloribus reprehenderit debitis voluptas pariatur eaque! Rem,accusamus tempora",
+                }}
+              />
+            </Fade>
           </div>
         </div>
       </div>
