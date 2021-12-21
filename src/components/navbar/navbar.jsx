@@ -111,7 +111,7 @@ const Navbar = () => {
               <hr />
               <NavLink to="/amazon-services">Amazon Services</NavLink>
               <hr />
-              <NavLink to="/social-media-services">
+              <NavLink className="so" to="/social-media-services">
                 Social Media Services
               </NavLink>
             </ul>

@@ -375,7 +375,20 @@
   //   justify-content: center;
   //   flex-wrap: wrap;
   // }
-
+  .accordion ul:hover li:hover {
+    width: 60% !important;
+  }
+  .services-dropdown {
+    padding: 8px 8px 8px 8px !important;
+    top: 44px !important;
+    left: 228px !important;
+    border-radius: 10px !important;
+    font-size: 12px !important;
+    font-family: "Poppins" !important;
+  }
+  .so {
+    line-height: 16px;
+  }
   .service-banner .headings .row .form-coloumn {
     text-align: -webkit-center !important;
   }

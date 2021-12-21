@@ -10,6 +10,7 @@ import Blog from "./pages/Blogs/blog";
 import Home from "./pages/home";
 import "./mediaquery.scss";
 import "./App.scss";
+import { BsArrowUpCircleFill } from "react-icons/bs";
 
 function App() {
   return (
@@ -21,6 +22,22 @@ function App() {
       <Route path="/creative-services" component={CreativePage} />
       <Route path="/blog" component={Blog} />
       <Route path="/about-us" component={AboutUs} />
+
+      <BsArrowUpCircleFill
+        onClick={() => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }}
+        className="upper-arrow"
+        style={{
+          bottom: "70px",
+          position: "fixed",
+          color: "white",
+          fontSize: "3rem",
+          right: "70px",
+          color: "#638b2e",
+          cursor: "pointer",
+        }}
+      />
     </div>
   );
 }
