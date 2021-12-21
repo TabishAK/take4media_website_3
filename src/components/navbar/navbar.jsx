@@ -1,13 +1,23 @@
 import logo from "../../images/logo/t4m_logo.png";
 import { NavLink } from "react-router-dom";
 // import Slide from "react-reveal/Slide";
+import { TiArrowSortedUp } from "react-icons/ti";
 import React from "react";
 import "./navbar.scss";
 
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
+
+  const [dynamicClass, setDynamicClass] = React.useState(
+    "not-services-dropdown"
+  );
+
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
+
+  const handleMouseEnter = () => {
+    setDynamicClass("services-dropdown");
+  };
 
   return (
     <div>
@@ -17,15 +27,12 @@ const Navbar = () => {
         style={{ zIndex: 1 }}
         onClick={(e) => e.stopPropagation()}
       >
-        {/* <Slide duration={2500} top> */}
         <div className="nav-container">
-          {/* <Slide duration={1200} top> */}
           <NavLink exact to="/" className="nav-logo">
             <img style={{ width: 280 }} src={logo} alt="logo" />
           </NavLink>
-          {/* </Slide> */}
+
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            {/* <Slide duration={1500} delay={200} top> */}
             <li className="nav-item">
               <NavLink
                 exact
@@ -37,21 +44,18 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            {/* </Slide> */}
-            {/* <Slide duration={1500} delay={300} top> */}
             <li className="nav-item">
-              <NavLink
+              <a
+                style={{ paddingBottom: 14 }}
                 exact
-                to="/services"
                 activeClassName="active"
                 className="nav-links"
-                onClick={click ? handleClick : null}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={() => setDynamicClass("not-services-dropdown")}
               >
                 Services
-              </NavLink>
-            </li>{" "}
-            {/* </Slide>{" "} */}
-            {/* <Slide duration={1500} delay={400} top> */}
+              </a>
+            </li>
             <li className="nav-item">
               <NavLink
                 exact
@@ -62,9 +66,7 @@ const Navbar = () => {
               >
                 Work
               </NavLink>
-            </li>{" "}
-            {/* </Slide>{" "} */}
-            {/* <Slide duration={1500} delay={500} top> */}
+            </li>
             <li className="nav-item">
               <NavLink
                 exact
@@ -76,8 +78,6 @@ const Navbar = () => {
                 About
               </NavLink>
             </li>
-            {/* </Slide> */}
-            {/* <Slide duration={1500} delay={600} top> */}
             <li className="nav-item">
               <NavLink
                 exact
@@ -89,8 +89,6 @@ const Navbar = () => {
                 Blog
               </NavLink>
             </li>
-            {/* </Slide> */}
-            {/* <Slide duration={1500} delay={700} top> */}
             <li className="nav-item no-hover">
               <NavLink
                 exact
@@ -102,13 +100,26 @@ const Navbar = () => {
                 Contact
               </NavLink>
             </li>
-            {/* </Slide> */}
+
+            <ul
+              className={dynamicClass}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={() => setDynamicClass("not-services-dropdown")}
+            >
+              <TiArrowSortedUp />
+              <NavLink to="/creative-services">Creative Services</NavLink>
+              <hr />
+              <NavLink to="/amazon-services">Amazon Services</NavLink>
+              <hr />
+              <NavLink to="/social-media-services">
+                Social Media Services
+              </NavLink>
+            </ul>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
           </div>
-        </div>{" "}
-        {/* </Slide> */}
+        </div>
       </nav>
     </div>
   );
