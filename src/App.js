@@ -12,6 +12,7 @@ import "./mediaquery.scss";
 import "./App.scss";
 import { BsArrowUpCircleFill } from "react-icons/bs";
 import Contact from "./pages/contact/contact";
+import Work from "./pages/work/work";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/blog" component={Blog} />
       <Route path="/about-us" component={AboutUs} />
       <Route path="/contact-us" component={Contact} />
+      <Route path="/work" component={Work} />
 
       <BsArrowUpCircleFill
         onClick={() => {

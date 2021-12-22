@@ -1,0 +1,60 @@
+.work {
+  display: grid;
+
+  h1 {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+  }
+
+  .work-banner {
+    background-image: url("../../images/backgrounds/work.jpg");
+    background-size: cover;
+
+    h1 {
+      font-size: 60px;
+      margin-top: 10rem;
+      margin-bottom: 10rem;
+    }
+  }
+
+  .work-section {
+    background: #121212;
+    display: grid;
+    h1 {
+      margin-top: 5rem;
+    }
+    h3 {
+      color: #638b2e;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .work-tabs {
+      display: flex;
+      justify-content: center;
+      li {
+        cursor: pointer;
+        text-transform: uppercase;
+        list-style: none;
+        color: white;
+        margin: 60px 60px;
+      }
+    }
+
+    .our-work-images {
+      .container {
+        max-width: 1210px !important;
+        .row {
+          margin-bottom: 5rem;
+          .col-xl-6 {
+            img {
+              width: 100%;
+
+              margin-bottom: 26px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

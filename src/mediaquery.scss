@@ -224,6 +224,16 @@
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
+  .social-media-banner .headings .row .form-coloumn {
+    text-align: -webkit-center;
+    margin-top: 3rem;
+  }
+
+  .creative-banner .headings .row .form-coloumn {
+    text-align: -webkit-center !important;
+    margin-top: 3rem;
+  }
+
   .service-banner .headings .row .col-xl-6 .form {
     background-color: #121212;
     width: 26rem;
@@ -370,11 +380,82 @@
 }
 
 @media (max-width: 575px) {
-  // .creative-page .creative-portfolio .row-1 {
-  //   display: flex;
-  //   justify-content: center;
-  //   flex-wrap: wrap;
-  // }
+  .creative-banner .headings .row .form-coloumn {
+    text-align: -webkit-center !important;
+    margin-top: 3rem;
+  }
+
+  .our-strategy .row .col-xl-6 h6 {
+    text-align: center !important;
+  }
+
+  .social-media-services .container .row {
+    text-align: center !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 h3 {
+    text-align: center !important;
+    font-size: 15px !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .service-banner .headings .row .col-xl-6 h3 {
+    margin-bottom: 2rem !important;
+    text-align: center !important;
+  }
+
+  .faqs .row .col-lg-6 img {
+    margin-top: 5rem !important;
+    width: 70% !important;
+  }
+  .creative-supporting-partner-section h6 {
+    margin-bottom: 2rem !important;
+  }
+  .creative-business-process .container .row {
+    text-align: -webkit-center !important;
+
+    .col-xl-3 {
+      margin-bottom: 2rem !important;
+    }
+  }
+
+  .creative-services h3 {
+    text-align: center !important;
+  }
+  .creative-strategies {
+    .container {
+      .row {
+        .col-xl-6 {
+          h6 {
+            text-align: center !important;
+          }
+          h1 {
+            text-align: center !important;
+          }
+          p {
+            text-align: center !important;
+          }
+        }
+      }
+
+      h3 {
+        text-align: center !important;
+      }
+    }
+  }
+  .creative-banner {
+    .headings {
+      .row {
+        .col-xl-6 {
+          h3 {
+            text-align: center !important;
+            margin-bottom: 2rem !important;
+          }
+        }
+      }
+    }
+  }
+
   .accordion ul:hover li:hover {
     width: 60% !important;
   }
@@ -412,15 +493,38 @@
     font-size: 14px !important;
   }
 
-  .service-banner .headings .row .col-xl-6 .over-write {
-    .service-banner .headings .row .col-xl-6 img {
-      margin-top: 2rem !important;
-      width: 100% !important;
+  .service-banner .headings .row .col-xl-6 .form form {
+    button {
+      padding: 10px 18px !important;
+      font-size: 15px !important;
+      margin-left: 5px !important;
     }
+  }
 
-    font-size: 24px !important;
-    text-align: left !important;
-    line-height: 38px !important;
+  .service-banner .headings .row {
+    .col-xl-6 {
+      p {
+        text-align: center;
+      }
+
+      .common-button {
+        margin-left: 28%;
+        padding: 12px 12px;
+        font-size: 12px;
+      }
+
+      .over-write {
+        .service-banner .headings .row .col-xl-6 {
+          img {
+            margin-top: 2rem !important;
+            width: 100% !important;
+          }
+        }
+        text-align: center;
+        font-size: 24px !important;
+        line-height: 38px !important;
+      }
+    }
   }
 
   .service-banner .headings {
@@ -536,12 +640,18 @@
   }
 
   .our-strategy .row .col-xl-6 p {
+    text-align: center;
     font-size: 14px !important;
     line-height: 26px !important;
     margin-top: 2rem !important;
   }
 
+  .row .percentages .col-xl-4 {
+    margin-top: 3rem !important;
+  }
+
   .our-strategy .row .col-xl-6 h1 {
+    text-align: center;
     font-size: 28px !important;
   }
   .our-strategy .main-heading {
@@ -556,9 +666,19 @@
   }
 
   .creative-service-detail {
-    text-align-last: left !important;
+    text-align-last: center !important;
     color: white !important;
     padding: 35px !important;
+  }
+  .heading-thatis-common {
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .creative-services .container .row .border-left {
+    border-top: 4px solid #669021;
+    border-left: none !important;
   }
 
   .ready-to-grow .contact-bar span {
@@ -648,11 +768,24 @@
   }
 
   .creative-services .container .row .col-xl-6 {
-    height: 25rem !important;
+    height: 20rem !important;
     width: 20rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .amazon-faqs .row .col-lg-6 img {
+    width: 80% !important;
+    margin-top: 5rem;
+  }
+
+  .project-in-mind {
+    button {
+      padding: 12px 12px !important;
+      font-size: 15px;
+    }
   }
 
   .key-features .key-features-box .row {
+    text-align-last: center !important;
     padding: 15px !important;
   }
 
@@ -679,9 +812,9 @@
       margin-top: 2rem !important;
       width: 100% !important;
     }
-
+    text-align: center;
     font-size: 24px !important;
-    text-align: left !important;
+
     line-height: 38px !important;
   }
 
@@ -713,12 +846,14 @@
     width: 10rem !important;
   }
   .social-media-banner .headings .row .col-xl-6 .form form svg {
-    left: 55px !important;
+    left: 44px !important;
   }
-  .social-media-banner .headings .row .col-xl-6 .form {
+  .creative-banner .headings .row .col-xl-6 .form {
     margin-top: 5rem;
+    position: relative;
     width: 19rem !important;
     padding: 20px 0px !important;
+    left: -8px;
   }
 
   .social-media-banner .headings .row .col-xl-6 .form form input {
@@ -736,6 +871,14 @@
   .social-media-services h1 {
     font-size: 25px !important;
   }
+  .social-media-banner .headings .row .heading-column {
+    text-align: -webkit-left;
+    margin-bottom: 2rem !important;
+  }
+
+  .social-media-banner .headings .row .col-xl-6 .form {
+    width: 20rem !important;
+  }
 
   .social-media-banner .headings .row .col-xl-6 .over-write {
     .social-media-banner .headings .row .col-xl-6 img {
@@ -744,7 +887,7 @@
     }
 
     font-size: 24px !important;
-    text-align: left !important;
+    text-align: center !important;
     line-height: 38px !important;
   }
 
@@ -780,8 +923,83 @@
     font-size: 26px !important;
   }
 
+  .amazon-services {
+    .service-card {
+      padding: 35px 30px 20px 40px !important;
+      height: 22rem !important;
+      text-align: center !important;
+    }
+  }
+
+  .amazon-strategies .row .col-xl-6 {
+    h6 {
+      text-align: center !important;
+    }
+    h1 {
+      text-align: center !important;
+    }
+    p {
+      text-align: center;
+    }
+  }
+
   .service-card {
-    padding: 20px 30px 20px 40px !important;
+    padding: 36px 30px 20px 40px !important;
+    height: 19rem !important;
+
+    svg {
+      margin-bottom: 1rem;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 12px !important;
+    }
+  }
+  .new-testimonial .container .testimonial p {
+    font-size: 16px !important;
+  }
+
+  .new-blog {
+    .container {
+      h3 {
+        text-align: center;
+      }
+      .row {
+        text-align: -webkit-center;
+        .section-1 {
+          display: flex;
+          height: 130px;
+          width: 90% !important;
+          margin-bottom: 1rem !important;
+          img {
+            width: 40.5% !important;
+            height: 8rem !important;
+          }
+        }
+        .section-2 {
+          width: 90% !important;
+          img {
+            width: 40.5% !important;
+            height: 8rem !important;
+          }
+          p {
+            padding: 0 !important;
+          }
+        }
+        .section-3 {
+          width: 90% !important;
+          img {
+            width: 40.5% !important;
+            height: 8rem !important;
+          }
+          p {
+            padding: 0 !important;
+          }
+        }
+      }
+    }
   }
 
   .how-to-use-box {
@@ -806,7 +1024,7 @@
     padding: 20px !important;
   }
   .service-page-1 .how-to-use .how-to-use-box .row .col-xl-2 img {
-    width: 30% !important;
+    width: 20% !important;
   }
   .discover-services .container .row .col-xl-4 {
     margin-bottom: 2rem !important;
@@ -828,7 +1046,7 @@
   }
 
   .help-from-experts .help-from-experts-box .row .col-xl-5 img {
-    width: 100% !important;
+    width: 70% !important;
     margin-top: 3rem !important;
   }
 
@@ -979,22 +1197,43 @@
   .upper-gap {
     margin-top: 5rem;
   }
+
+  .cards {
+    padding: 30px 0 0 5px !important;
+    height: 20rem !important;
+    margin: 10px !important;
+    text-align: center !important;
+    hr {
+      display: none !important;
+    }
+  }
+
+  .heading {
+    justify-content: center !important;
+  }
+  .heading span {
+    width: 48px !important;
+    top: 28px !important;
+    margin-right: 14px !important;
+  }
   .con {
     h1 {
       font-size: 28px !important;
-      line-height: 30px;
-      text-align: left;
-      margin-left: 1rem;
+      line-height: 30px !important;
+      text-align: center !important;
     }
     h3 {
       text-transform: uppercase !important;
       color: #66902f !important;
       font-size: 18px !important;
-      margin-left: 1rem !important;
+      text-align: center;
       margin-bottom: 2rem !important;
     }
     button {
-      margin-left: 1rem !important;
+      margin-left: 35% !important;
+      margin-top: 2rem !important;
+      padding: 12px 12px;
+      font-size: 14px;
     }
   }
 

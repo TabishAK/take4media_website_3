@@ -3,7 +3,7 @@ import "./heading.scss";
 
 const Heading = ({ heading, subHeading }) => {
   return (
-    <div>
+    <div className="heading-thatis-common">
       <Slide left duration={1200}>
         <div className="heading">
           <span></span>
