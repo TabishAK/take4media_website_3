@@ -128,7 +128,7 @@
     width: 100%;
     border-top: 1pxsolid #fff;
     position: absolute;
-    top: 80px;
+    top: -36px;
     left: -110%;
 
     opacity: 1;
@@ -157,11 +157,12 @@
   .nav-icon {
     display: block;
     position: absolute;
-    top: 0;
+    top: -62px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    z-index: 1;
     color: #66902f;
   }
 }

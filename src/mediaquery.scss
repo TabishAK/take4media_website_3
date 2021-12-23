@@ -384,6 +384,63 @@
 }
 
 @media (max-width: 575px) {
+  .qualities {
+    .container {
+      .row {
+        .col-xl-4 {
+          text-align: center !important;
+          p {
+            padding: 0 !important;
+          }
+        }
+      }
+    }
+  }
+  .about-us .meet-our-team .container-fluid .row .col img {
+    width: 150% !important;
+  }
+
+  .card .content .back h2 {
+    font-size: 9px !important ;
+    margin-top: 0 !important;
+    margin-bottom: 22px !important ;
+    width: 43px !important;
+    left: -9px !important;
+    position: relative !important;
+  }
+
+  .solution {
+    .container {
+      .col-xl-6 {
+        button {
+          padding: 12px 12px;
+        }
+      }
+    }
+  }
+  .card .content .back h4 {
+    font-size: 9px !important ;
+    width: 43px !important;
+    left: -9px !important;
+    position: relative !important;
+    margin-top: -8px !important;
+    font-size: 8px !important;
+  }
+  .about-us .solution .container .row .col-xl-6 {
+    h1 {
+      font-size: 48px;
+      margin-bottom: 2rem;
+      margin-top: 5rem;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    button {
+      margin-left: 6rem;
+    }
+  }
+
   .upper-arrow {
     bottom: 30px !important;
     font-size: 40px !important;
