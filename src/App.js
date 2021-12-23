@@ -28,6 +28,7 @@ function App() {
       <Route path="/work" component={Work} />
 
       <BsArrowUpCircleFill
+        className="arrow-global"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}

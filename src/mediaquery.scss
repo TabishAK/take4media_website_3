@@ -224,6 +224,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
+  .contact-page .get-in-touch .container .row .left-line {
+    border-left: none !important;
+  }
+
   .social-media-banner .headings .row .form-coloumn {
     text-align: -webkit-center;
     margin-top: 3rem;
@@ -380,6 +384,35 @@
 }
 
 @media (max-width: 575px) {
+  .upper-arrow {
+    bottom: 30px !important;
+    font-size: 40px !important;
+    right: 22px !important;
+    cursor: pointer !important;
+  }
+
+  .contact-page .send-us-message .input-first-row,
+  .contact-page .send-us-message .input-second-row,
+  .contact-page .send-us-message .input-third-row {
+    display: grid !important;
+  }
+
+  .contact-page .send-us-message .input-first-row input,
+  .contact-page .send-us-message .input-second-row input,
+  .contact-page .send-us-message .input-third-row input {
+    padding: 15px 0 16px 20px !important;
+    margin: 15px !important;
+    width: 90% !important;
+  }
+
+  .contact-page .send-us-message .input-first-row textarea,
+  .contact-page .send-us-message .input-second-row textarea,
+  .contact-page .send-us-message .input-third-row textarea {
+    width: 100% !important;
+    height: 141px !important;
+    padding: 28px !important;
+  }
+
   .creative-banner .headings .row .form-coloumn {
     text-align: -webkit-center !important;
     margin-top: 3rem;

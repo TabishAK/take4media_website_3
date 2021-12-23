@@ -25,7 +25,7 @@ const Contact = () => {
         <h3>LOREM IPSUM DOLOR SIT AMET</h3>
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-5">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5">
               <BsFillTelephoneFill />
               <h3>Phone</h3>
               <p>
@@ -33,7 +33,7 @@ const Contact = () => {
                 +0 987 654 321
               </p>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-5 left-line">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 left-line">
               <ImLocation2 />
               <h3>Address</h3>
               <p>
@@ -41,7 +41,7 @@ const Contact = () => {
                 <br /> consectetur adipiscing elit.
               </p>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mt-5 left-line">
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-5 left-line">
               <MdMarkEmailUnread />
               <h3>Email</h3>
               <p>

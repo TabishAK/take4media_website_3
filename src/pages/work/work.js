@@ -10,10 +10,14 @@ import work7 from "../../images/our-work/7.jpg";
 import work8 from "../../images/our-work/8.jpg";
 import work9 from "../../images/our-work/9.jpg";
 import work10 from "../../images/our-work/10.jpg";
+import { useEffect } from "react";
 
 import Footer from "../../components/footer/footer";
 import { useState } from "react";
 import Zoom from "react-reveal/Zoom";
+import Swing from "react-reveal/Swing";
+import Slide from "react-reveal/Slide";
+import Rotate from "react-reveal/Rotate";
 
 const Work = () => {
   const portfolio = [
@@ -29,23 +33,24 @@ const Work = () => {
     { img: work10, type: "photography" },
   ];
 
-  const [menus, setMenus] = useState([
-    { all: true },
-    { architecture: false },
-    { photography: false },
-    { design: false },
-  ]);
+  const [menus, setMenus] = useState({
+    all: true,
+    architecture: false,
+    photography: false,
+    design: false,
+  });
 
   const allTrue = () => {
-    let temp = [...menus];
+    let temp = { ...menus };
     temp.all = true;
     temp.architecture = false;
     temp.photography = false;
     temp.design = false;
+
     setMenus(temp);
   };
   const photographyTrue = () => {
-    let temp = [...menus];
+    let temp = { ...menus };
     temp.all = false;
     temp.architecture = false;
     temp.photography = true;
@@ -54,15 +59,16 @@ const Work = () => {
   };
 
   const architectureTrue = () => {
-    let temp = [...menus];
+    let temp = { ...menus };
     temp.all = false;
     temp.architecture = true;
     temp.photography = false;
     temp.design = false;
     setMenus(temp);
   };
+
   const designTrue = () => {
-    let temp = [...menus];
+    let temp = { ...menus };
     temp.all = false;
     temp.architecture = false;
     temp.photography = false;
@@ -83,23 +89,42 @@ const Work = () => {
         <h3 className="mt-1">See all our works.</h3>
 
         <div className="work-tabs">
-          <li onClick={allTrue}>All</li>
-          <li onClick={photographyTrue}>Photography</li>
-          <li onClick={architectureTrue}>Architecture</li>
-          <li onClick={designTrue}>Design</li>
+          <li className={menus.all ? "make-red" : ""} onClick={allTrue}>
+            All
+          </li>
+          <li
+            className={menus.photography ? "make-red" : ""}
+            onClick={photographyTrue}
+          >
+            Photography
+          </li>
+          <li
+            className={menus.architecture ? "make-red" : ""}
+            onClick={architectureTrue}
+          >
+            Architecture
+          </li>
+          <li className={menus.design ? "make-red" : ""} onClick={designTrue}>
+            Design
+          </li>
         </div>
 
         <div className="our-work-images">
           <div className="container">
             <div className="row">
-              <div className="col-xl-6">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 {menus.all
                   ? portfolio
                       .splice(0, Math.ceil(portfolio.length / 2))
                       .map((p) => (
-                        <div className="col-xl-12">
-                          <img src={p.img} alt="" />
-                        </div>
+                        <Slide bottom>
+                          <div className="col-xl-12">
+                            <img className="image" src={p.img} alt="" />
+                            <div class="middle">
+                              <div class="text"> {p.type}</div>
+                            </div>
+                          </div>
+                        </Slide>
                       ))
                   : ""}
 
@@ -108,11 +133,14 @@ const Work = () => {
                       .splice(0, Math.ceil(portfolio.length / 2))
                       .map((p) =>
                         p.type === "architecture" ? (
-                          <Zoom left>
+                          <Slide bottom>
                             <div className="col-xl-12">
-                              <img src={p.img} alt="" />
+                              <img className="image" src={p.img} alt="" />
+                              <div class="middle">
+                                <div class="text"> {p.type}</div>
+                              </div>
                             </div>
-                          </Zoom>
+                          </Slide>
                         ) : (
                           ""
                         )
@@ -124,9 +152,14 @@ const Work = () => {
                       .splice(0, Math.ceil(portfolio.length / 2))
                       .map((p) =>
                         p.type === "photography" ? (
-                          <div className="col-xl-12">
-                            <img src={p.img} alt="" />
-                          </div>
+                          <Slide bottom>
+                            <div className="col-xl-12">
+                              <img className="image" src={p.img} alt="" />
+                              <div class="middle">
+                                <div class="text"> {p.type}</div>
+                              </div>
+                            </div>
+                          </Slide>
                         ) : (
                           ""
                         )
@@ -138,32 +171,46 @@ const Work = () => {
                       .splice(0, Math.ceil(portfolio.length / 2))
                       .map((p) =>
                         p.type === "design" ? (
-                          <div className="col-xl-12">
-                            <img src={p.img} alt="" />
-                          </div>
+                          <Slide bottom>
+                            <div className="col-xl-12">
+                              <img className="image" src={p.img} alt="" />
+                              <div class="middle">
+                                <div class="text"> {p.type}</div>
+                              </div>
+                            </div>
+                          </Slide>
                         ) : (
                           ""
                         )
                       )
                   : ""}
               </div>
-              <div className="col-xl-6">
+
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 {menus.all
                   ? portfolio.splice(-Math.ceil(portfolio.length)).map((p) => (
-                      <div className="col-xl-12">
-                        <img src={p.img} alt="" />
-                      </div>
+                      <Slide bottom>
+                        <div className="col-xl-12">
+                          <img className="image" src={p.img} alt="" />
+                          <div class="middle">
+                            <div class="text"> {p.type}</div>
+                          </div>
+                        </div>
+                      </Slide>
                     ))
                   : ""}
 
                 {menus.architecture
                   ? portfolio.splice(-Math.ceil(portfolio.length)).map((p) =>
                       p.type === "architecture" ? (
-                        <Zoom left>
+                        <Slide bottom>
                           <div className="col-xl-12">
-                            <img src={p.img} alt="" />
+                            <img className="image" src={p.img} alt="" />
+                            <div class="middle">
+                              <div class="text"> {p.type}</div>
+                            </div>
                           </div>
-                        </Zoom>
+                        </Slide>
                       ) : (
                         ""
                       )
@@ -173,9 +220,14 @@ const Work = () => {
                 {menus.photography
                   ? portfolio.splice(-Math.ceil(portfolio.length)).map((p) =>
                       p.type === "photography" ? (
-                        <div className="col-xl-12">
-                          <img src={p.img} alt="" />
-                        </div>
+                        <Slide bottom>
+                          <div className="col-xl-12">
+                            <img className="image" src={p.img} alt="" />
+                            <div class="middle">
+                              <div class="text"> {p.type}</div>
+                            </div>
+                          </div>
+                        </Slide>
                       ) : (
                         ""
                       )
@@ -185,9 +237,14 @@ const Work = () => {
                 {menus.design
                   ? portfolio.splice(-Math.ceil(portfolio.length)).map((p) =>
                       p.type === "design" ? (
-                        <div className="col-xl-12">
-                          <img src={p.img} alt="" />
-                        </div>
+                        <Slide bottom>
+                          <div className="col-xl-12">
+                            <img className="image" src={p.img} alt="" />
+                            <div class="middle">
+                              <div class="text">John Doe</div>
+                            </div>
+                          </div>
+                        </Slide>
                       ) : (
                         ""
                       )
