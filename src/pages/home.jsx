@@ -27,7 +27,7 @@ const Home = () => {
         <br />
         <br />
       </div>
-      <div className="services">
+      <div className="services" id="services">
         <ServicePanel />
       </div>
       <Works />

@@ -8,7 +8,7 @@ import "./new-blog.scss";
 
 const NewBlog = () => {
   return (
-    <div className="new-blog">
+    <div className="new-blog" id="blog">
       <div className="container">
         <Heading
           heading="Blogs"

@@ -224,6 +224,11 @@
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
+  .top {
+    position: relative !important;
+    top: 0px !important;
+  }
+
   .contact-page .get-in-touch .container .row .left-line {
     border-left: none !important;
   }
@@ -381,9 +386,35 @@
   .react-multi-carousel-list .react-multi-carousel-track li {
     height: 46rem;
   }
+
+  .works .container .different-work .row .col-xl-4 {
+    text-align: -webkit-center !important;
+  }
 }
 
 @media (max-width: 575px) {
+  .works .container .different-work .row .col-xl-4 {
+    margin-bottom: 4rem !important;
+    text-align: -webkit-center !important;
+  }
+
+  .top {
+    position: relative !important;
+    top: 0px !important;
+  }
+
+  .fa-times {
+    display: block;
+    position: absolute;
+    top: -42px;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1;
+    color: #66902f;
+  }
+
   .qualities {
     .container {
       .row {
@@ -1263,7 +1294,6 @@
   }
 
   .works {
-    height: 65rem;
     .container {
       .heading {
         margin-left: 3rem;

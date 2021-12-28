@@ -5,7 +5,7 @@ import Line from "../common/line/line";
 import Slide from "react-reveal/Slide";
 const ProjectInMind = (props) => {
   return (
-    <div className="project-in-mind">
+    <div className="project-in-mind" id="contact">
       <Line top={props.top ? props.top : ""} />
 
       {props.showSocialMedia ? (

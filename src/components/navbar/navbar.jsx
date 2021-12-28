@@ -1,125 +1,115 @@
-import logo from "../../images/logo/t4m_logo.png";
-import { NavLink } from "react-router-dom";
-// import Slide from "react-reveal/Slide";
-import { TiArrowSortedUp } from "react-icons/ti";
-import React from "react";
 import "./navbar.scss";
+import React from "react";
+import { Link } from "react-scroll";
+import { Link as Goto } from "react-router-dom";
 
+import logo from "../../images/logo/t4m_logo.png";
+import Slide from "react-reveal/Slide";
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
-
-  const [dynamicClass, setDynamicClass] = React.useState(
-    "not-services-dropdown"
-  );
-
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
-
-  const handleMouseEnter = () => {
-    setDynamicClass("services-dropdown");
-  };
 
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
-      <nav
-        className="navbar"
-        style={{ zIndex: 1 }}
-        onClick={(e) => e.stopPropagation()}
-      >
-        <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
-            <img style={{ width: 280 }} src={logo} alt="logo" />
-          </NavLink>
-
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <a
-                style={{ paddingBottom: 14 }}
-                exact
-                activeClassName="active"
-                className="nav-links"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={() => setDynamicClass("not-services-dropdown")}
-              >
-                Services
-              </a>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/work"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Work
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about-us"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                About
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/blog"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Blog
-              </NavLink>
-            </li>
-            <li className="nav-item no-hover">
-              <NavLink
-                exact
-                to="/contact-us"
-                activeClassName="active"
-                className="nav-links contact-link"
-                onClick={click ? handleClick : null}
-              >
-                Contact
-              </NavLink>
-            </li>
-
-            <ul
-              className={dynamicClass}
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={() => setDynamicClass("not-services-dropdown")}
-            >
-              <TiArrowSortedUp />
-              <NavLink to="/creative-services">Creative Services</NavLink>
-              <hr />
-              <NavLink to="/amazon-services">Amazon Services</NavLink>
-              <hr />
-              <NavLink className="so" to="/social-media-services">
-                Social Media Services
-              </NavLink>
+      <nav className="navbar" onClick={(e) => e.stopPropagation()}>
+        <Slide duration={2500} top>
+          <div className="nav-container">
+            <Slide duration={1200} top>
+              <Goto spy={true} to="/" className="nav-logo">
+                <img style={{ width: 280 }} src={logo} alt="logo" />
+              </Goto>
+            </Slide>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+              <Slide duration={1500} delay={200} top>
+                <li className="nav-item">
+                  <Link
+                    spy={true}
+                    to="/"
+                    activeClassName="active"
+                    className="nav-links"
+                    onClick={click ? handleClick : null}
+                  >
+                    Home
+                  </Link>
+                </li>
+              </Slide>
+              <Slide duration={1500} delay={300} top>
+                <li className="nav-item">
+                  <Link
+                    offset={-50}
+                    spy={true}
+                    to="services"
+                    activeClassName="active"
+                    className="nav-links"
+                    onClick={click ? handleClick : null}
+                  >
+                    Services
+                  </Link>
+                </li>
+              </Slide>
+              <Slide duration={1500} delay={400} top>
+                <li className="nav-item">
+                  <Link
+                    spy={true}
+                    to="work"
+                    offset={100}
+                    activeClassName="active"
+                    className="nav-links"
+                    onClick={click ? handleClick : null}
+                  >
+                    Work
+                  </Link>
+                </li>
+              </Slide>
+              <Slide duration={1500} delay={500} top>
+                <li className="nav-item">
+                  <Link
+                    spy={true}
+                    offset={70}
+                    to="about"
+                    activeClassName="active"
+                    className="nav-links"
+                    onClick={click ? handleClick : null}
+                  >
+                    About
+                  </Link>
+                </li>
+              </Slide>
+              <Slide duration={1500} delay={600} top>
+                <li className="nav-item">
+                  <Link
+                    spy={true}
+                    to="blog"
+                    activeClassName="active"
+                    className="nav-links"
+                    onClick={click ? handleClick : null}
+                  >
+                    Blog
+                  </Link>
+                </li>
+              </Slide>
+              <Slide duration={1500} delay={700} top>
+                <li className="nav-item no-hover">
+                  <Link
+                    spy={true}
+                    offset={-200}
+                    to="contact"
+                    activeClassName="active"
+                    className="nav-links contact-link"
+                    onClick={click ? handleClick : null}
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </Slide>
             </ul>
-          </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+            <div className="nav-icon" onClick={handleClick}>
+              <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+            </div>
           </div>
-        </div>
+        </Slide>
       </nav>
     </div>
   );

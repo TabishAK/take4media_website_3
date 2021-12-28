@@ -10,16 +10,12 @@ import work7 from "../../images/our-work/7.jpg";
 import work8 from "../../images/our-work/8.jpg";
 import work9 from "../../images/our-work/9.jpg";
 import work10 from "../../images/our-work/10.jpg";
-import { useEffect } from "react";
 
 import Footer from "../../components/footer/footer";
-import { useState } from "react";
-import Zoom from "react-reveal/Zoom";
-import Swing from "react-reveal/Swing";
+import { useState, useEffect } from "react";
 import Slide from "react-reveal/Slide";
-import Rotate from "react-reveal/Rotate";
 
-const Work = () => {
+const Work = (props) => {
   const portfolio = [
     { img: work1, type: "photography" },
     { img: work3, type: "architecture" },
@@ -39,6 +35,28 @@ const Work = () => {
     photography: false,
     design: false,
   });
+
+  console.log(props);
+
+  useEffect(() => {
+    let temp = { ...menus };
+
+    if (props.architecture) {
+      temp.all = false;
+      temp.architecture = true;
+      setMenus(temp);
+    }
+    if (props.photography) {
+      temp.all = false;
+      temp.photography = true;
+      setMenus(temp);
+    }
+    if (props.design) {
+      temp.all = false;
+      temp.design = true;
+      setMenus(temp);
+    }
+  }, []);
 
   const allTrue = () => {
     let temp = { ...menus };
