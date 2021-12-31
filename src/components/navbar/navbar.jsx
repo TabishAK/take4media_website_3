@@ -1,10 +1,10 @@
-import "./navbar.scss";
-import React from "react";
-import { Link } from "react-scroll";
-import { Link as Goto } from "react-router-dom";
-
 import logo from "../../images/logo/t4m_logo.png";
+import { Link as Goto } from "react-router-dom";
 import Slide from "react-reveal/Slide";
+import { Link } from "react-scroll";
+import React from "react";
+import "./navbar.scss";
+
 const Navbar = () => {
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);

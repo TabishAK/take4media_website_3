@@ -1,6 +1,8 @@
 import Heading from "../common/heading/heading";
 import Fade from "react-reveal/Fade";
 import "./about.scss";
+import Button from "./../common/button/button";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -60,6 +62,11 @@ const About = () => {
         </div>
       </div>
 
+      <center>
+        <Link to="/about-us">
+          <Button label="See More" style={{ marginTop: "3rem" }} />
+        </Link>
+      </center>
       <br />
       <br />
       <br />

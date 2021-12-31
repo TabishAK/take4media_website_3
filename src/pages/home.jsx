@@ -23,7 +23,7 @@ const Home = () => {
         <Slide bottom delay={500} duration={1200}>
           <CardPanel />
         </Slide>
-        <Line />
+
         <br />
         <br />
       </div>

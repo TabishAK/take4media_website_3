@@ -27,16 +27,16 @@ function App() {
       <Route path="/contact-us" component={Contact} />
 
       <Route
-        path="/work"
+        path="/work/photography"
         render={(props) => <Work photography={true} {...props} />}
       />
 
       <Route
-        path="/work"
+        path="/work/architecture"
         render={(props) => <Work architecture={true} {...props} />}
       />
 
-      <Route path="/work" render={(props) => <Work design={true} />} />
+      <Route path="/work/design" render={(props) => <Work design={true} />} />
 
       <BsArrowUpCircleFill
         className="arrow-global"

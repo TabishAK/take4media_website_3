@@ -5,6 +5,7 @@ import img2 from "../../images/blog/1.PNG";
 import img3 from "../../images/blog/2.PNG";
 import Fade from "react-reveal/Fade";
 import "./new-blog.scss";
+import { Link } from "react-router-dom";
 
 const NewBlog = () => {
   return (
@@ -37,10 +38,12 @@ const NewBlog = () => {
           </Fade>
         </div>
         <center>
-          <Button
-            label="Show more"
-            style={{ marginBottom: "5rem", marginTop: "2rem" }}
-          />
+          <Link to="/blog">
+            <Button
+              label="Show more"
+              style={{ marginBottom: "5rem", marginTop: "2rem" }}
+            />
+          </Link>
         </center>
       </div>
     </div>
