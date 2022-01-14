@@ -11,7 +11,9 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
             <p>We are more than a digital agency.</p>
           </div>
           <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
@@ -72,15 +74,19 @@ const Footer = () => {
               <div className="col-xl-4 col-lg-4 col-sm-12 col-md-4 col-xs-12 right">
                 <h3>ABOUT US</h3>
                 <span>
-                  <Link to="">
+                  <Link to="/about-us">
                     <h6>About Us</h6>
                   </Link>
                 </span>
                 <span>
-                  <h6> Blog</h6>
+                  <Link to="/blog">
+                    <h6> Blog</h6>
+                  </Link>
                 </span>
                 <span>
-                  <h6> Contact Us</h6>
+                  <Link to="/contact-us">
+                    <h6> Contact Us</h6>
+                  </Link>
                 </span>
               </div>
             </div>

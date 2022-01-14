@@ -2,17 +2,17 @@ import "../node_modules/font-awesome/css/font-awesome.min.css";
 import CreativePage from "./pages/creativePage/creative-page";
 import SocialMedia from "./pages/social-media/social-media";
 import ScrollToTop from "./components/common/scrollToTop";
+import { BsArrowUpCircleFill } from "react-icons/bs";
 import Services from "./pages/services/services";
 import { Route, Routes } from "react-router-dom";
 import AboutUs from "./pages/about-us/about-us";
+import Contact from "./pages/contact/contact";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blog from "./pages/Blogs/blog";
-import Home from "./pages/home";
+import Work from "./pages/work/work";
+import Home from "./pages/home/home";
 import "./mediaquery.scss";
 import "./App.scss";
-import { BsArrowUpCircleFill } from "react-icons/bs";
-import Contact from "./pages/contact/contact";
-import Work from "./pages/work/work";
 
 function App() {
   return (
